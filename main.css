@@ -15,6 +15,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  min-height: 570px;
 }
 
 .nav__text-container {
@@ -52,6 +53,10 @@ hr {
   text-align: center;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
 .about-section__wrapper {
   max-width: 750px;
   margin: 0 auto 0 auto;
@@ -82,15 +87,12 @@ hr {
   margin-bottom: 0;
 }
 
-li {
-  padding: 5px 8px 0 8px;
+.active:hover {
+  color: white;
 }
 
 .point-separator::before {
-  content: '\00B7';
-  display: inline-block;
-  margin-right: .5em;
-  color: white;
+  content: '';
 }
 
 .home-nav {
@@ -108,8 +110,16 @@ li {
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .inline {
   display: inline;
+}
+
+.burger:hover {
+  color: white;
 }
 
 .inline-block {
@@ -119,6 +129,10 @@ li {
 .nav-link:hover {
   color: white;
   cursor: pointer;
+}
+
+.nav-link {
+  background-color: #5C8ED6;
 }
 
 .max-width {
@@ -159,13 +173,13 @@ li {
   position: relative;
 }
 
-.centered {
-
-}
-
 .project {
   border: 2px solid red;
   height: 320px;
+}
+
+.text-centered {
+  text-align: center;
 }
 
 .no-margin-top {
@@ -199,6 +213,7 @@ footer {
 }
 
 @media only screen and (min-width: 440px) {
+
   .col-2 {
     width: 50%;
     height: 245px;
@@ -209,7 +224,21 @@ footer {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
+  .nav {
+    min-height: 420px;
+  }
+
+  .nav-link {
+    background-color: inherit;
+  }
+
+  .point-separator::before {
+    content: '\00B7';
+    display: inline-block;
+    color: white;
+  }
+
   [class*="col-"] {
     width: 50%;
     float: left;
@@ -234,7 +263,6 @@ footer {
 }
 
 @media only screen and (min-width: 1160px) {
-
   .col-1 {width: 8.33%;}
   /*border: 2px solid red;*/
   .col-2 {width: 16.66%;}

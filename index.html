@@ -4,20 +4,22 @@
     <meta charset="utf-8">
     <title>Peter Rhodes</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
     <link href="https://file.myfontastic.com/ccLmAATr23PEMvGJFD3eKX/icons.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
 
-    <nav class="home-nav">
-      <ul class="home-nav__list">
-        <li class="inline">Peter Rhodes</li>
-          <li class="inline float-right point-separator link-to-portfolio nav-link">Projects</li>
-          <li class="inline float-right point-separator nav-link">About</li>
-          <li class="inline float-right point-separator nav-link">Skills</li>
-          <li class="inline float-right nav-link">Contact</li>
-      </ul>
-    </nav>
+    <ul class="topnav" id="myTopnav">
+      <li class="float-left"><a class="active" href="#home">Peter Rhodes</a></li>
+      <li class="topnav_list float-right point-separator"><a class="nav-link" href="#contact">Contact</a></li>
+      <li class="topnav_list float-right point-separator"><a class="nav-link" href="#skills">Skills</a></li>
+      <li class="topnav_list float-right point-separator"><a class="nav-link" href="#about">About</a></li>
+      <li class="topnav_list float-right"><a class="nav-link link-to-portfolio" href="#projects">Projects</a></li>
+      <li class="icon">
+        <a href="#" class="burger">☰</a>
+      </li>
+    </ul>
 
     <div class="fixed-header">
       <h1 class="fixed-header--margins">Peter Rhodes</h1>

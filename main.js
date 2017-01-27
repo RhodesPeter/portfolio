@@ -24,3 +24,14 @@ function scrollTo(element, to, duration) {
 document.getElementsByClassName("link-to-portfolio")[0].addEventListener("click", function(){
   scrollTo(document.body, 537, 70);
 });
+
+// for nav bar
+var burger = document.getElementsByClassName("burger")[0];
+burger.addEventListener("click", function() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+});
