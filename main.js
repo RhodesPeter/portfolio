@@ -1,14 +1,4 @@
-window.onscroll = function() {
-  var nav = document.getElementsByClassName('fixed-header')[0];
-  if ( window.pageYOffset > 536 ) {
-      nav.classList.add("opacity");
-  } else {
-      nav.classList.remove("opacity");
-  }
-}
-
-elmnt = document.getElementById("projects");
-
+// for transition on nav links
 function scrollTo(element, to, duration) {
   if (duration <= 0) return;
   var difference = to - element.scrollTop;
@@ -21,8 +11,29 @@ function scrollTo(element, to, duration) {
   }, 10);
 }
 
+var project = document.getElementsByClassName('projects')[0];
+var about = document.getElementsByClassName('about')[0];
+var skills = document.getElementsByClassName('skills')[0];
+var contact = document.getElementsByClassName('contact')[0];
+
+document.getElementsByClassName("link-to-top")[0].addEventListener("click", function(){
+  scrollTo(document.body, 0, 70);
+});
+
 document.getElementsByClassName("link-to-portfolio")[0].addEventListener("click", function(){
-  scrollTo(document.body, 537, 70);
+  scrollTo(document.body, project.offsetTop - 46, 70);
+});
+
+document.getElementsByClassName("link-to-about")[0].addEventListener("click", function(){
+  scrollTo(document.body, about.offsetTop - 46, 70);
+});
+
+document.getElementsByClassName("link-to-skills")[0].addEventListener("click", function(){
+  scrollTo(document.body, skills.offsetTop - 46, 70);
+});
+
+document.getElementsByClassName("link-to-contact")[0].addEventListener("click", function(){
+  scrollTo(document.body, contact.offsetTop - 46, 70);
 });
 
 // for nav bar
@@ -35,3 +46,13 @@ burger.addEventListener("click", function() {
         x.className = "topnav";
     }
 });
+
+// for the height that the fixed-header starts at
+window.onscroll = function() {
+  var nav = document.getElementsByClassName('fixed-header')[0];
+  if ( window.pageYOffset > project.offsetTop - 47 ) {
+      nav.classList.add("opacity");
+  } else {
+      nav.classList.remove("opacity");
+  }
+}
