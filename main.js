@@ -112,14 +112,3 @@ project6.addEventListener("mouseover", function(){
 project6.addEventListener("mouseleave", function(){
   project6.setAttribute('src', 'assets/coming-soon.svg');
 });
-
-// project1.addEventListener("mouseleave", noHover(project1, "assets/autocomp.svg"));
-//
-// function hover(element, imageSrc) {
-//     element.setAttribute('src', imageSrc);
-//     console.log('hover')
-// }
-
-// function noHover(element, imageSrc) {
-//     element.setAttribute('src', imageSrc);
-// }

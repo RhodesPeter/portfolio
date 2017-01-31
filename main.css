@@ -184,6 +184,15 @@ hr {
   text-align: center;
 }
 
+.project {
+  border: 2px solid red;
+  height: 320px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
 .no-margin-top {
   margin-top: 0;
 }
