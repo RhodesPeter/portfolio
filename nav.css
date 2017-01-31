@@ -33,8 +33,6 @@ ul.topnav li.icon {
 @media screen and (max-width:850px) {
   ul.topnav.responsive {
     position: relative;
-    /*background-color: red;*/
-    /*background-color: #5C8ED6;*/
   }
 
   ul.topnav.responsive li.icon {
