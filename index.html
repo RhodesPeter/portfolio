@@ -4,23 +4,26 @@
     <meta charset="utf-8">
     <title>Peter Rhodes</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
     <link href="https://file.myfontastic.com/ccLmAATr23PEMvGJFD3eKX/icons.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ad1683208f.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
 
-    <nav class="home-nav">
-      <ul class="home-nav__list">
-        <li class="inline">Peter Rhodes</li>
-          <li class="inline float-right point-separator link-to-portfolio nav-link">Projects</li>
-          <li class="inline float-right point-separator nav-link">About</li>
-          <li class="inline float-right point-separator nav-link">Skills</li>
-          <li class="inline float-right nav-link">Contact</li>
-      </ul>
-    </nav>
+    <ul class="topnav" id="myTopnav">
+      <li class="float-left"><a class="active link-to-top" href="#">Peter Rhodes</a></li>
+      <li class="float-right point-separator link-to-contact"><a class="nav-link" href="#">Contact</a></li>
+      <li class="float-right point-separator link-to-skills"><a class="nav-link" href="#">Skills</a></li>
+      <li class="float-right point-separator link-to-about"><a class="nav-link" href="#">About</a></li>
+      <li class="float-right"><a class="nav-link link-to-portfolio" href="#">Projects</a></li>
+      <li class="icon">
+        <a href="#" class="burger">☰</a>
+      </li>
+    </ul>
 
     <div class="fixed-header">
-      <h1 class="fixed-header--margins">Peter Rhodes</h1>
+      <a class="link-to-top2" href="#">Peter Rhodes</a>
     </div>
 
     <div class="row">
@@ -39,17 +42,29 @@
 
     <div class="row">
       <div class="projects">
-        <div class="project col-4">project-1</div>
-        <div class="project col-4">project-2</div>
-        <div class="project col-4">project-3</div>
-        <div class="project col-4">project-4</div>
-        <div class="project col-4">project-5</div>
-        <div class="project col-4">project-6</div>
+        <div class="col-4">
+          <img class="project1" src="assets/autocomp.svg" alt="autocomplete app"></img>
+        </div>
+        <div class="col-4">
+          <img class="project2" src="assets/drawing-app.svg" alt="autocomplete app"></img>
+        </div>
+        <div class="col-4">
+          <img src="assets/autocomp.svg" alt="autocomplete app"></img>
+        </div>
+        <div class="col-4">
+          <img src="assets/autocomp.svg" alt="autocomplete app"></img>
+        </div>
+        <div class="col-4">
+          <img src="assets/autocomp.svg" alt="autocomplete app"></img>
+        </div>
+        <div class="col-4">
+          <img src="assets/autocomp.svg" alt="autocomplete app"></img>
+        </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-12 text-align">
+      <div class="about col-12 text-align">
         <div class="about-section__wrapper">
           <h2 class="line-styling blue-text">About</h2>
           <h2 class="line-styling no-margin-top">Full-stack Javascript Developer</h2>
@@ -71,9 +86,9 @@
     </div>
 
     <div class="row">
-        <div class="col-12 text-align">
+        <div class="skills col-12 text-align">
           <div class="skills-section__wrapper">
-            <h2 class="line-styling blue-text no-margin-bottom no-margin-top">Skills</h2>
+            <h2 class="line-styling blue-text no-margin-bottom skills-margin-top">Skills</h2>
             <div class="col-2">
               <h2 class="no-margin-top">Languages</h2>
               <ul class="no-list-style no-padding">
@@ -130,16 +145,31 @@
       </div>
 
     <div class="row">
-        <footer class="col-12">
+        <footer class="col-12 contact">
           <div>
             <h2 class="line-styling white-text">Contact</h2>
-            <h2 class="line-styling no-margin-top">Feel free to contact me.</h2>
             <p class="line-styling no-margin-bottom no-margin-top">Peter Rhodes</p>
             <p class="line-styling no-margin-bottom no-margin-top">rhodespeter@hotmail.co.uk</p>
             <p class="line-styling no-margin-top">07833798916</p>
           </div>
 
-          <p class="footer__text line-styling white-text">Build without libraries and frameworks.</p>
+          <div class="row">
+            <div class="links">
+                <a class="links__link col-3" href="https://github.com/rhodespeter">
+                  <i class="fa fa-github-square" aria-hidden="true">
+                </i> GitHub</a>
+                <a class="links__link col-3" href="https://www.linkedin.com/in/peter-rhodes-b7655967">
+                  <i class="fa fa-linkedin-square" aria-hidden="true">
+                </i> LinkedIn</a>
+                <a class="links__link col-3" href="https://www.codewars.com/users/Peter%20Rhodes">
+                    <span class="icon-codewars">a</span> Codewars</a>
+                <a class="links__link col-3" href="https://twitter.com/PeterJRhodes">
+                  <i class="fa fa-twitter-square" aria-hidden="true">
+                </i> Twitter</a>
+            </div>
+          </div>
+
+          <p class="footer__text line-styling white-text">Built without libraries and frameworks.</p>
         </footer>
     </div>
 
