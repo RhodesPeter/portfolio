@@ -60,6 +60,10 @@ window.onscroll = function() {
 // to change the project images on hover
 var project1 = document.getElementsByClassName("project1")[0];
 var project2 = document.getElementsByClassName("project2")[0];
+var project3 = document.getElementsByClassName("project3")[0];
+var project4 = document.getElementsByClassName("project4")[0];
+var project5 = document.getElementsByClassName("project5")[0];
+var project6 = document.getElementsByClassName("project6")[0];
 
 project1.addEventListener("mouseover", function(){
   project1.setAttribute('src', 'assets/autocomp2.svg');
@@ -75,6 +79,38 @@ project2.addEventListener("mouseover", function(){
 
 project2.addEventListener("mouseleave", function(){
   project2.setAttribute('src', 'assets/drawing-app.svg');
+});
+
+project3.addEventListener("mouseover", function(){
+  project3.setAttribute('src', 'assets/hacker2.svg');
+});
+
+project3.addEventListener("mouseleave", function(){
+  project3.setAttribute('src', 'assets/hacker.svg');
+});
+
+project4.addEventListener("mouseover", function(){
+  project4.setAttribute('src', 'assets/welcome-to-camhs2.svg');
+});
+
+project4.addEventListener("mouseleave", function(){
+  project4.setAttribute('src', 'assets/welcome-to-camhs.svg');
+});
+
+project5.addEventListener("mouseover", function(){
+  project5.setAttribute('src', 'assets/stopwatch2.svg');
+});
+
+project5.addEventListener("mouseleave", function(){
+  project5.setAttribute('src', 'assets/stopwatch.svg');
+});
+
+project6.addEventListener("mouseover", function(){
+  project6.setAttribute('src', 'assets/coming-soon2.svg');
+});
+
+project6.addEventListener("mouseleave", function(){
+  project6.setAttribute('src', 'assets/coming-soon.svg');
 });
 
 // project1.addEventListener("mouseleave", noHover(project1, "assets/autocomp.svg"));

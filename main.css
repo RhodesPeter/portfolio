@@ -10,7 +10,7 @@ body {
 }
 
 .nav {
-  height: calc(90vh - 90px);
+  height: calc(80vh - 90px);
   background-color: #659df7;
   text-align: center;
   display: flex;
@@ -85,6 +85,7 @@ hr {
 
 .blue-text {
   color: #659df7;
+  text-decoration: none;
 }
 
 .footer__text {
@@ -239,6 +240,10 @@ footer {
 
 .links__link:hover {
   color: white;
+}
+
+[class*="project"] {
+  cursor: pointer
 }
 
 @media only screen and (min-width: 440px) {
