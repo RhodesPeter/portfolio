@@ -49,14 +49,6 @@ hr {
   margin: 27px auto 27px auto;
 }
 
-.text-align {
-  text-align: center;
-}
-
-.text-align-right {
-  text-align: right;
-}
-
 .about-section__wrapper {
   max-width: 750px;
   margin: 0 auto 0 auto;
@@ -79,6 +71,14 @@ hr {
   margin-top: -10px;
 }
 
+.text-align {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
 .white-text {
   color: white;
 }
@@ -86,10 +86,6 @@ hr {
 .blue-text {
   color: #659df7;
   text-decoration: none;
-}
-
-.footer__text {
-  margin-bottom: 0;
 }
 
 .active:hover {
@@ -131,6 +127,10 @@ hr {
   display: inline-block;
 }
 
+.nav-link {
+  background-color: #5C8ED6;
+}
+
 .nav-link:hover {
   color: white;
   cursor: pointer;
@@ -143,14 +143,6 @@ hr {
   margin-top: 10px;
 }
 
-.nav-link {
-  background-color: #5C8ED6;
-}
-
-.max-width {
-  max-width: 1160px;
-}
-
 .fixed-header {
   position: fixed;
   top: 0;
@@ -161,10 +153,6 @@ hr {
   opacity: 0;
   z-index: -1;
   padding: 8px 0 0 15px;
-}
-
-.no-padding {
-  padding: 0;
 }
 
 .no-list-style {
@@ -193,6 +181,10 @@ hr {
   text-align: center;
 }
 
+.no-padding {
+  padding: 0;
+}
+
 .no-margin-top {
   margin-top: 0;
 }
@@ -214,9 +206,9 @@ footer {
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .col-2 {
@@ -318,27 +310,15 @@ footer {
   }
 
   .col-1 {width: 8.33%;}
-  /*border: 2px solid red;*/
   .col-2 {width: 16.66%;}
-  /*border: 2px solid red;*/
   .col-3 {width: 25%;}
-  /*border: 2px solid red;*/
   .col-4 {width: 33.33%;}
-  /*border: 2px solid red;*/
   .col-5 {width: 41.66%;}
-  /*border: 2px solid red;*/
   .col-6 {width: 50%;}
-  /*border: 2px solid red;*/
   .col-7 {width: 58.33%;}
-  /*border: 2px solid red;*/
   .col-8 {width: 66.66%;}
-  /*border: 2px solid red;*/
   .col-9 {width: 75%;}
-  /*border: 2px solid red;*/
   .col-10 {width: 83.33%;}
-  /*border: 2px solid red;*/
   .col-11 {width: 91.66%;}
-  /*border: 2px solid red;*/
   .col-12 {width: 100%;}
-  /*border: 2px solid red;*/
 }
