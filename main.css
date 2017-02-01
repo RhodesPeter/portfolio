@@ -166,6 +166,8 @@ hr {
 
 .projects {
   position: relative;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .text-centered {
