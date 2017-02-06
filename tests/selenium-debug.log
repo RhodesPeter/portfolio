@@ -1,0 +1,31 @@
+01:41:42.745 INFO - Launching a standalone Selenium Server
+01:41:42.794 INFO - Java: Oracle Corporation 25.121-b13
+01:41:42.795 INFO - OS: Mac OS X 10.11.6 x86_64
+01:41:42.813 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+01:41:42.909 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+01:41:42.910 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+01:41:42.910 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+01:41:42.911 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+01:41:42.914 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+01:41:42.914 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+01:41:43.007 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+01:41:43.007 INFO - Selenium Server is up and running
+01:41:44.081 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+01:41:44.111 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 34910
+Only local connections are allowed.
+01:41:46.186 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+01:41:46.209 INFO - Executing: [get: file:///Users/peterrhodes/Desktop/cv-portfolio/index.html])
+01:41:48.414 INFO - Done: [get: file:///Users/peterrhodes/Desktop/cv-portfolio/index.html]
+01:41:48.427 INFO - Executing: [find elements: By.cssSelector: body])
+01:41:48.476 INFO - Done: [find elements: By.cssSelector: body]
+01:41:48.483 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (285652e59682cbd94de43ff95dce51e9)] -> css selector: body]])
+01:41:48.518 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (285652e59682cbd94de43ff95dce51e9)] -> css selector: body]]
+01:41:48.528 INFO - Executing: [get title])
+01:41:48.535 INFO - Done: [get title]
+01:41:48.540 INFO - Executing: [take screenshot])
+01:41:48.777 INFO - Done: [take screenshot]
+01:41:48.795 INFO - Executing: [delete session: 46b1aef4-8c1c-4b4c-bb6d-ab5c76cb999e])
+01:41:48.891 INFO - Done: [delete session: 46b1aef4-8c1c-4b4c-bb6d-ab5c76cb999e]
