@@ -1,0 +1,27 @@
+{
+  "name": "cv-portfolio",
+  "version": "1.0.0",
+  "description": "Peter Rhodes Portfolio",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch --config tests/nightwatch.conf.BASIC.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhodesPeter/cv-portfolio.git"
+  },
+  "author": "Peter Rhodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RhodesPeter/cv-portfolio/issues"
+  },
+  "homepage": "https://github.com/RhodesPeter/cv-portfolio#readme",
+  "devDependencies": {
+    "env2": "^2.1.1",
+    "nightwatch": "^0.9.12",
+    "selenium-download": "^2.0.9"
+  }
+}

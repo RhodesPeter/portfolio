@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Peter Rhodes</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="nav.css">
+    <title>Peter Rhodes Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link href="https://file.myfontastic.com/ccLmAATr23PEMvGJFD3eKX/icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
     <script src="https://use.fontawesome.com/ad1683208f.js"></script>
@@ -14,16 +14,16 @@
 
     <ul class="topnav" id="myTopnav">
       <li class="float-left"><a class="active link-to-top" href="#">Peter Rhodes</a></li>
-      <li class="float-right point-separator link-to-contact"><a class="nav-link" href="#">Contact</a></li>
-      <li class="float-right point-separator link-to-skills"><a class="nav-link" href="#">Skills</a></li>
+      <li class="float-right point-separator link-to-contact"><a id="contact-button"class="nav-link" href="#">Contact</a></li>
+      <li class="float-right point-separator link-to-skills"><a id="skills-link" class="nav-link" href="#">Skills</a></li>
       <li class="float-right point-separator link-to-about"><a class="nav-link" href="#">About</a></li>
       <li class="float-right"><a class="nav-link link-to-portfolio" href="#">Projects</a></li>
       <li class="icon">
-        <a href="#" class="burger">☰</a>
+        <a href="#" id="burger" class="burger">☰</a>
       </li>
     </ul>
 
-    <div class="fixed-header">
+    <div id="fixed-header" class="fixed-header">
       <a class="link-to-top2" href="#">Peter Rhodes</a>
     </div>
 
@@ -44,27 +44,27 @@
     <div class="row">
       <div class="projects">
         <div class="col-4">
-          <a href="https://autocorrecter.herokuapp.com/">
+          <a id="proj1" href="https://autocorrecter.herokuapp.com/">
             <img class="project1" src="assets/autocomp.svg" alt="Autocomplete app">
           </a>
         </div>
         <div class="col-4">
-          <a href="https://peter-drawing-app.herokuapp.com/">
+          <a id="proj2" href="https://peter-drawing-app.herokuapp.com/">
             <img class="project2" src="assets/drawing-app.svg" alt="Drawing app">
           </a>
         </div>
         <div class="col-4">
-          <a href="https://rhodespeter.github.io/hacker-alias-application/">
+          <a id="proj3" href="https://rhodespeter.github.io/hacker-alias-application/">
             <img class="project3" src="assets/hacker.svg" alt="Hacker app">
           </a>
         </div>
         <div class="col-4">
-          <a href="https://github.com/CYPIAPT-LNDSE/welcome-to-camhs/">
+          <a id="proj4" href="https://github.com/CYPIAPT-LNDSE/welcome-to-camhs/">
             <img class="project4" src="assets/welcome-to-camhs.svg" alt="Welcome to CAMHS">
           </a>
         </div>
         <div class="col-4">
-          <a href="https://github.com/shiryz/stopWatch">
+          <a id="proj5" href="https://github.com/shiryz/stopWatch">
             <img class="project5" src="assets/stopwatch.svg" alt="Stopwatch">
           </a>
         </div>
@@ -81,33 +81,33 @@
         <div class="about-section__wrapper">
           <h2 class="line-styling blue-text">About</h2>
           <h2 class="line-styling no-margin-top">Full-stack Javascript Developer</h2>
-          <p class="line-styling">
+          <p id="about__para1" class="line-styling">
             I am a full-stack Javascript developer and have just graduated
             from the Founders & Coders bootcamp. I am interested in software
             development opportunities and specialise in web development with
             JavaScript and Node.js.</p>
 
-          <p class="line-styling">A copy of my CV can be found
-            <a class="blue-text" href="https://github.com/RhodesPeter/cv">here</a>.
+          <p id="about__para2" class="line-styling">A copy of my CV can be found
+            <a id="link-to-cv" class="blue-text" href="https://github.com/RhodesPeter/cv">here</a>.
           </p>
 
-          <p class="line-styling">I have a background in design and aspire to become a great developer
+          <p id="about__para3" class="line-styling">I have a background in design and aspire to become a great developer
             who can add value to a team by providing design and artworking skills
             alongside coding.</p>
 
-          <p class="line-styling no-margin-bottom">The tech for good sector is a real interest of mine. I would love
+          <p id="about__para4" class="line-styling no-margin-bottom">The tech for good sector is a real interest of mine. I would love
             to work on projects with a positive social impact, which aim to
             create a more equal and fair society or a more sustainable environment.</p>
         </div>
       </div>
     </div>
 
-    <div class="row">
+    <div id="skills" class="row">
         <div class="skills col-12 text-align">
           <div class="skills-section__wrapper">
             <h2 class="line-styling blue-text no-margin-bottom skills-margin-top">Skills</h2>
             <div class="col-2">
-              <h2 class="no-margin-top">Languages</h2>
+              <h2 id="languages" class="no-margin-top">Languages</h2>
               <ul class="no-list-style no-padding">
                <li>HTML5</li>
                <li>CSS3</li>
@@ -117,7 +117,7 @@
               </ul>
             </div>
             <div class="col-2">
-              <h2 class="no-margin-top">Testing</h2>
+              <h2 id="testing" class="no-margin-top">Testing</h2>
               <ul class="no-list-style no-padding">
                 <li>QUnit</li>
                 <li>Jasmine</li>
@@ -127,14 +127,14 @@
               </ul>
             </div>
             <div class="col-2">
-              <h2 class="no-margin-top">Databases</h2>
+              <h2 id="databases" class="no-margin-top">Databases</h2>
               <ul class="no-list-style no-padding">
                 <li>PostgreSQL</li>
                 <li>Redis</li>
               </ul>
             </div>
             <div class="col-2">
-              <h2 class="no-margin-top">Design skills</h2>
+              <h2 id="design-skills" class="no-margin-top">Design skills</h2>
               <ul class="no-list-style no-padding">
                <li>Photoshop</li>
                <li>Illustrator</li>
@@ -144,13 +144,13 @@
              </ul>
             </div>
             <div class="col-2">
-              <h2 class="no-margin-top">Frameworks</h2>
+              <h2 id="frameworks" class="no-margin-top">Frameworks</h2>
               <ul class="no-list-style no-padding">
                 <li>Hapi.js</li>
               </ul>
             </div>
             <div class="col-2">
-              <h2 class="no-margin-top">Other skills</h2>
+              <h2 id="other-skills" class="no-margin-top">Other skills</h2>
               <ul class="no-list-style no-padding">
                 <li>Git/GitHub</li>
                 <li>Heroku</li>
@@ -162,7 +162,7 @@
       </div>
 
     <div class="row">
-        <footer class="col-12 contact">
+        <footer id="contact" class="col-12 contact">
           <div>
             <h2 class="line-styling white-text">Contact</h2>
             <p class="line-styling no-margin-bottom no-margin-top">Peter Rhodes</p>
@@ -172,15 +172,15 @@
 
           <div class="row">
             <div class="links">
-                <a class="links__link col-3" href="https://github.com/rhodespeter">
+                <a id="github" class="links__link col-3" href="https://github.com/rhodespeter">
                   <i class="fa fa-github-square" aria-hidden="true">
                 </i> GitHub</a>
-                <a class="links__link col-3" href="https://www.linkedin.com/in/peter-rhodes-b7655967">
+                <a id="linkedin" class="links__link col-3" href="https://www.linkedin.com/in/peter-rhodes-b7655967">
                   <i class="fa fa-linkedin-square" aria-hidden="true">
                 </i> LinkedIn</a>
-                <a class="links__link col-3" href="https://www.codewars.com/users/Peter%20Rhodes">
+                <a id="codewars" class="links__link col-3" href="https://www.codewars.com/users/Peter%20Rhodes">
                     <span class="icon-codewars">a</span> Codewars</a>
-                <a class="links__link col-3" href="https://twitter.com/PeterJRhodes">
+                <a id="twitter" class="links__link col-3" href="https://twitter.com/PeterJRhodes">
                   <i class="fa fa-twitter-square" aria-hidden="true">
                 </i> Twitter</a>
             </div>
