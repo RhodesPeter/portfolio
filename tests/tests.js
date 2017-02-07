@@ -5,6 +5,7 @@ module.exports = {
     browser
       .url('file:///Users/peterrhodes/Desktop/cv-portfolio/index.html')
       .waitForElementVisible('body')
+      .saveScreenshot("tests/screenshots/screenshot.png")
       .assert.title('Peter Rhodes Portfolio')
       .assert.visible('ul[class=topnav]')
       .assert.visible('div[class=nav__text-container]')
@@ -63,18 +64,6 @@ module.exports = {
       .moveToElement(".about-section__wrapper", 0, 0)
       .assert.visible(".fixed-header")
 
-  
-
       .end()
-      // .isVisible("#skills", function(result) {
-      //     this.assert.equal(result.value, true);
-      //   })
-      // .click("#skills-link")
-      // .pause(500)
-      // .isVisible("#skills", function(result) {
-      //     this.assert.equal(result.value, true);
-      //   })
-      // .saveScreenshot('tests/screenshots/portfolio.png')
-      // .end();
   }
 }
