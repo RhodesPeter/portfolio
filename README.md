@@ -5,6 +5,10 @@ You can find this website hosted [here](https://rhodespeter.github.io/cv-portfol
 
 This project is a work in progress, feel free to leave some issues if anything stands out.
 
+### Testing Tools:
+- Nightwatch.js
+- Selenium
+
 ### To run tests:
   1. Clone or download this repo.
   2. Type `npm install` into your terminal.
