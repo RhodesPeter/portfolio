@@ -1,4 +1,4 @@
-![](https://david-dm.org/RhodesPeter/cv-portfolio)
+[![Dependency Status](https://david-dm.org/rhodespeter/cv-portfolio.svg)](https://david-dm.org/RhodesPeter/cv-portfolio)
 
 # CV Portfolio
 Portfolio website - build without frameworks and libraries
