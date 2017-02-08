@@ -9,6 +9,9 @@
   "scripts": {
     "test": "node_modules/.bin/nightwatch --config tests/nightwatch.conf.BASIC.js"
   },
+  "engines": {
+  "node": "4.4.6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RhodesPeter/cv-portfolio.git"
