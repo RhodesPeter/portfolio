@@ -5,7 +5,7 @@ module.exports = {
     browser
       .url("https://rhodespeter.github.io/portfolio")
       .waitForElementVisible('body')
-      .saveScreenshot("tests/screenshots/screenshot.png")
+      .saveScreenshot("test/screenshots/screenshot.png")
       .assert.title('Peter Rhodes Portfolio')
       .assert.visible('ul[class=topnav]')
       .assert.visible('div[class=nav__text-container]')
