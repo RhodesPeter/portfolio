@@ -13,8 +13,6 @@
     "postinstall": "node nightwatch.conf.js",
     "test": "./node_modules/.bin/nightwatch --env local",
     "ie": "./node_modules/.bin/nightwatch -e ie11",
-    "sauce": "./node_modules/.bin/nightwatch -e chrome,ie11,android_s4_emulator,iphone_6_simulator",
-    "upload": "node test/e2e/upload_screenshots_to_s3.js",
     "e2e": "npm run sauce; npm run upload",
     "dev": "./node_modules/.bin/nodemon -w test/index.html --delay 250ms --exec 'npm run upload'"
   },
@@ -35,8 +33,6 @@
   },
   "devDependencies": {
     "aws-sdk": "^2.7.13",
-    "env2": "^2.1.1",
-    "mime-types": "^2.1.13",
-    "nodemon": "^1.11.0"
+    "env2": "^2.1.1"
   }
 }
