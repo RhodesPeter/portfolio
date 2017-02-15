@@ -1,13 +1,13 @@
-// require('env2')('.env'); // optionally store youre Evironment Variables in .env
+require('env2')('.env'); // optionally store youre Evironment Variables in .env
 const SCREENSHOT_PATH = "./screenshots/";
 const BINPATH = './node_modules/nightwatch/bin/';
 
 // we use a nightwatch.conf.js file so we can include comments and helper functions
 module.exports = {
   "src_folders": [
-    "tests/tests.js"// Where you are storing your Nightwatch e2e tests
+    "test/e2e"// Where you are storing your Nightwatch e2e tests
   ],
-  "output_folder": "tests/reports", // reports (test outcome) output by nightwatch
+  "output_folder": "./reports", // reports (test outcome) output by nightwatch
   "selenium": { // downloaded by selenium-download module (see readme)
     "start_process": true, // tells nightwatch to start/stop the selenium process
     "server_path": "./node_modules/nightwatch/bin/selenium.jar",
@@ -21,7 +21,7 @@ module.exports = {
     "default": {
       "screenshots": {
         "enabled": true, // if you want to keep screenshots
-        "path": './tests/screenshots' // save screenshots here
+        "path": './screenshots' // save screenshots here
       },
       "globals": {
         "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
@@ -38,6 +38,7 @@ module.exports = {
     }
   }
 }
+
 /**
  * selenium-download does exactly what it's name suggests;
  * downloads (or updates) the version of Selenium (& chromedriver)
@@ -53,6 +54,7 @@ require('fs').stat(BINPATH + 'selenium.jar', function (err, stat) { // got it?
     });
   }
 });
+
 
 function padLeft (count) { // theregister.co.uk/2016/03/23/npm_left_pad_chaos/
   return count < 10 ? '0' + count : count.toString();

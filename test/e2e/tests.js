@@ -1,9 +1,9 @@
-var config = require('./nightwatch.conf.BASIC.js');
+var config = require('../../nightwatch.conf.js');
 
 module.exports = {
   'Assert Elements': function(browser) {
     browser
-      .url('file:///Users/peterrhodes/Desktop/cv-portfolio/index.html')
+      .url("https://rhodespeter.github.io/portfolio")
       .waitForElementVisible('body')
       .saveScreenshot("tests/screenshots/screenshot.png")
       .assert.title('Peter Rhodes Portfolio')
@@ -47,6 +47,7 @@ module.exports = {
       .assert.visible('a[id=codewars]')
       .assert.visible('a[id=twitter]')
 
+      .resizeWindow(2000, 1000)
       .isVisible("#burger", function(result) {
           this.assert.equal(result.value, false);
         })
@@ -55,7 +56,7 @@ module.exports = {
           this.assert.equal(result.value, true);
         })
 
-      .maximizeWindow()
+      .resizeWindow(2000, 1000)
       .assert.cssProperty(".nav-link", "background-color", "rgba(101, 157, 247, 1)")
       .resizeWindow(400, 600)
       .assert.cssProperty(".nav-link", "background-color", "rgba(92, 142, 214, 1)")
