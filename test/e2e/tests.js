@@ -3,7 +3,7 @@ var config = require('../../nightwatch.conf.js');
 module.exports = {
   'Assert Elements': function(browser) {
     browser
-      .url(browser.launch_url)
+      .url("https://rhodespeter.github.io/portfolio")
       .waitForElementVisible('body')
       .saveScreenshot("tests/screenshots/screenshot.png")
       .assert.title('Peter Rhodes Portfolio')
