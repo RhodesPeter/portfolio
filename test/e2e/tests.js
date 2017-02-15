@@ -56,7 +56,7 @@ module.exports = {
           this.assert.equal(result.value, true);
         })
 
-      .maximizeWindow()
+      .resizeWindow(2000, 1000)
       .assert.cssProperty(".nav-link", "background-color", "rgba(101, 157, 247, 1)")
       .resizeWindow(400, 600)
       .assert.cssProperty(".nav-link", "background-color", "rgba(92, 142, 214, 1)")
