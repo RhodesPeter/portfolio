@@ -1,4 +1,4 @@
-var config = require('../nightwatch.conf.js');
+var config = require('../../nightwatch.conf.js');
 
 module.exports = {
   'Assert Elements': function(browser) {
