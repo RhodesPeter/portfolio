@@ -3,9 +3,9 @@ var config = require('../../nightwatch.conf.js');
 module.exports = {
   'Assert Elements': function(browser) {
     browser
-      .url('file:///Users/peterrhodes/Desktop/cv-portfolio/index.html')
+      .url("file:///Users/peterrhodes/Desktop/cv-portfolio/index.html")
       .waitForElementVisible('body')
-      .saveScreenshot("tests/screenshots/screenshot.png")
+      .saveScreenshot("test/screenshots/screenshot.png")
       .assert.title('Peter Rhodes Portfolio')
       .assert.visible('ul[class=topnav]')
       .assert.visible('div[class=nav__text-container]')
@@ -57,7 +57,6 @@ module.exports = {
         })
 
       .resizeWindow(2000, 1000)
-      .maximizeWindow()
       .assert.cssProperty(".nav-link", "background-color", "rgba(101, 157, 247, 1)")
       .resizeWindow(400, 600)
       .assert.cssProperty(".nav-link", "background-color", "rgba(92, 142, 214, 1)")
