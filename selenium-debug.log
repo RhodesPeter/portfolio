@@ -1,224 +1,224 @@
-00:34:33.213 INFO - Launching a standalone Selenium Server
-00:34:33.265 INFO - Java: Oracle Corporation 25.121-b13
-00:34:33.265 INFO - OS: Mac OS X 10.11.6 x86_64
-00:34:33.285 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-00:34:33.381 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+00:50:59.980 INFO - Launching a standalone Selenium Server
+00:51:00.032 INFO - Java: Oracle Corporation 25.121-b13
+00:51:00.033 INFO - OS: Mac OS X 10.11.6 x86_64
+00:51:00.048 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+00:51:00.149 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-00:34:33.382 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+00:51:00.150 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-00:34:33.382 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-00:34:33.382 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-00:34:33.385 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-00:34:33.385 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-00:34:33.523 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-00:34:33.524 INFO - Selenium Server is up and running
-00:34:34.083 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
+00:51:00.150 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:51:00.151 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+00:51:00.156 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+00:51:00.158 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+00:51:00.267 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+00:51:00.267 INFO - Selenium Server is up and running
+00:51:00.813 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
             (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
-00:34:34.096 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
+00:51:00.826 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
             (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
-Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 44698
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 9023
 Only local connections are allowed.
-00:34:36.258 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
+00:51:02.959 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
             (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
-00:34:36.283 INFO - Executing: [get: file:///Users/peterrhodes/Desktop/cv-portfolio/index.html])
-00:34:38.360 INFO - Done: [get: file:///Users/peterrhodes/Desktop/cv-portfolio/index.html]
-00:34:38.368 INFO - Executing: [find elements: By.cssSelector: body])
-00:34:38.424 INFO - Done: [find elements: By.cssSelector: body]
-00:34:38.430 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: body]])
-00:34:38.473 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: body]]
-00:34:38.480 INFO - Executing: [take screenshot])
-00:34:38.665 INFO - Done: [take screenshot]
-00:34:38.689 INFO - Executing: [get title])
-00:34:38.697 INFO - Done: [get title]
-00:34:38.704 INFO - Executing: [find element: By.cssSelector: ul[class=topnav]])
-00:34:38.732 INFO - Done: [find element: By.cssSelector: ul[class=topnav]]
-00:34:38.736 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: ul[class=topnav]]])
-00:34:38.766 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: ul[class=topnav]]]
-00:34:38.773 INFO - Executing: [find element: By.cssSelector: div[class=nav__text-container]])
-00:34:38.801 INFO - Done: [find element: By.cssSelector: div[class=nav__text-container]]
-00:34:38.805 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=nav__text-container]]])
-00:34:38.829 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=nav__text-container]]]
-00:34:38.833 INFO - Executing: [find element: By.cssSelector: div[class=projects]])
-00:34:38.861 INFO - Done: [find element: By.cssSelector: div[class=projects]]
-00:34:38.865 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=projects]]])
-00:34:38.892 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=projects]]]
-00:34:38.897 INFO - Executing: [find element: By.cssSelector: img[class=project1]])
-00:34:38.923 INFO - Done: [find element: By.cssSelector: img[class=project1]]
-00:34:38.929 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project1]]])
-00:34:38.957 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project1]]]
-00:34:38.962 INFO - Executing: [find element: By.cssSelector: #proj1])
-00:34:38.989 INFO - Done: [find element: By.cssSelector: #proj1]
-00:34:38.992 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj1], href])
-00:34:39.006 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj1], href]
-00:34:39.011 INFO - Executing: [find element: By.cssSelector: img[class=project2]])
-00:34:39.045 INFO - Done: [find element: By.cssSelector: img[class=project2]]
-00:34:39.049 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project2]]])
-00:34:39.082 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project2]]]
-00:34:39.088 INFO - Executing: [find element: By.cssSelector: #proj2])
-00:34:39.117 INFO - Done: [find element: By.cssSelector: #proj2]
-00:34:39.121 INFO - Executing: [get element attribute: 7 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj2], href])
-00:34:39.132 INFO - Done: [get element attribute: 7 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj2], href]
-00:34:39.137 INFO - Executing: [find element: By.cssSelector: img[class=project3]])
-00:34:39.166 INFO - Done: [find element: By.cssSelector: img[class=project3]]
-00:34:39.172 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project3]]])
-00:34:39.200 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project3]]]
-00:34:39.208 INFO - Executing: [find element: By.cssSelector: #proj3])
-00:34:39.238 INFO - Done: [find element: By.cssSelector: #proj3]
-00:34:39.244 INFO - Executing: [get element attribute: 9 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj3], href])
-00:34:39.257 INFO - Done: [get element attribute: 9 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj3], href]
-00:34:39.262 INFO - Executing: [find element: By.cssSelector: img[class=project4]])
-00:34:39.294 INFO - Done: [find element: By.cssSelector: img[class=project4]]
-00:34:39.297 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project4]]])
-00:34:39.329 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project4]]]
-00:34:39.335 INFO - Executing: [find element: By.cssSelector: #proj4])
-00:34:39.364 INFO - Done: [find element: By.cssSelector: #proj4]
-00:34:39.366 INFO - Executing: [get element attribute: 11 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj4], href])
-00:34:39.380 INFO - Done: [get element attribute: 11 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj4], href]
-00:34:39.385 INFO - Executing: [find element: By.cssSelector: img[class=project5]])
-00:34:39.413 INFO - Done: [find element: By.cssSelector: img[class=project5]]
-00:34:39.415 INFO - Executing: [is displayed: 12 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project5]]])
-00:34:39.443 INFO - Done: [is displayed: 12 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project5]]]
-00:34:39.446 INFO - Executing: [find element: By.cssSelector: #proj5])
-00:34:39.477 INFO - Done: [find element: By.cssSelector: #proj5]
-00:34:39.480 INFO - Executing: [get element attribute: 13 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj5], href])
-00:34:39.497 INFO - Done: [get element attribute: 13 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #proj5], href]
-00:34:39.502 INFO - Executing: [find element: By.cssSelector: img[class=project6]])
-00:34:39.759 INFO - Done: [find element: By.cssSelector: img[class=project6]]
-00:34:39.761 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project6]]])
-00:34:39.790 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: img[class=project6]]]
-00:34:39.794 INFO - Executing: [find element: By.cssSelector: div[class=about-section__wrapper]])
-00:34:39.823 INFO - Done: [find element: By.cssSelector: div[class=about-section__wrapper]]
-00:34:39.826 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=about-section__wrapper]]])
-00:34:39.851 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=about-section__wrapper]]]
-00:34:39.858 INFO - Executing: [find element: By.cssSelector: a[id=link-to-cv]])
-00:34:39.883 INFO - Done: [find element: By.cssSelector: a[id=link-to-cv]]
-00:34:39.888 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=link-to-cv]]])
-00:34:39.913 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=link-to-cv]]]
-00:34:39.917 INFO - Executing: [find element: By.cssSelector: p[id=about__para1]])
-00:34:39.948 INFO - Done: [find element: By.cssSelector: p[id=about__para1]]
-00:34:39.950 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para1]]])
-00:34:39.977 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para1]]]
-00:34:39.982 INFO - Executing: [find element: By.cssSelector: p[id=about__para2]])
-00:34:40.013 INFO - Done: [find element: By.cssSelector: p[id=about__para2]]
-00:34:40.016 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para2]]])
-00:34:40.045 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para2]]]
-00:34:40.049 INFO - Executing: [find element: By.cssSelector: p[id=about__para3]])
-00:34:40.076 INFO - Done: [find element: By.cssSelector: p[id=about__para3]]
-00:34:40.078 INFO - Executing: [is displayed: 19 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para3]]])
-00:34:40.109 INFO - Done: [is displayed: 19 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para3]]]
-00:34:40.113 INFO - Executing: [find element: By.cssSelector: p[id=about__para4]])
-00:34:40.142 INFO - Done: [find element: By.cssSelector: p[id=about__para4]]
-00:34:40.145 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para4]]])
-00:34:40.171 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: p[id=about__para4]]]
-00:34:40.175 INFO - Executing: [find element: By.cssSelector: div[class=skills-section__wrapper]])
-00:34:40.202 INFO - Done: [find element: By.cssSelector: div[class=skills-section__wrapper]]
-00:34:40.206 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=skills-section__wrapper]]])
-00:34:40.233 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=skills-section__wrapper]]]
-00:34:40.237 INFO - Executing: [find element: By.cssSelector: h2[id=languages]])
-00:34:40.262 INFO - Done: [find element: By.cssSelector: h2[id=languages]]
-00:34:40.265 INFO - Executing: [is displayed: 22 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=languages]]])
-00:34:40.291 INFO - Done: [is displayed: 22 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=languages]]]
-00:34:40.294 INFO - Executing: [find element: By.cssSelector: #languages])
-00:34:40.321 INFO - Done: [find element: By.cssSelector: #languages]
-00:34:40.323 INFO - Executing: [get text: 22 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=languages]]])
-00:34:40.355 INFO - Done: [get text: 22 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=languages]]]
-00:34:40.358 INFO - Executing: [find element: By.cssSelector: h2[id=testing]])
-00:34:40.383 INFO - Done: [find element: By.cssSelector: h2[id=testing]]
-00:34:40.385 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=testing]]])
-00:34:40.412 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=testing]]]
-00:34:40.416 INFO - Executing: [find element: By.cssSelector: #testing])
-00:34:40.457 INFO - Done: [find element: By.cssSelector: #testing]
-00:34:40.459 INFO - Executing: [get text: 23 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=testing]]])
-00:34:40.490 INFO - Done: [get text: 23 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=testing]]]
-00:34:40.494 INFO - Executing: [find element: By.cssSelector: h2[id=databases]])
-00:34:40.521 INFO - Done: [find element: By.cssSelector: h2[id=databases]]
-00:34:40.524 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=databases]]])
-00:34:40.551 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=databases]]]
-00:34:40.556 INFO - Executing: [find element: By.cssSelector: #databases])
-00:34:40.583 INFO - Done: [find element: By.cssSelector: #databases]
-00:34:40.585 INFO - Executing: [get text: 24 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=databases]]])
-00:34:40.618 INFO - Done: [get text: 24 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=databases]]]
-00:34:40.623 INFO - Executing: [find element: By.cssSelector: h2[id=design-skills]])
-00:34:40.656 INFO - Done: [find element: By.cssSelector: h2[id=design-skills]]
-00:34:40.658 INFO - Executing: [is displayed: 25 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=design-skills]]])
-00:34:40.683 INFO - Done: [is displayed: 25 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=design-skills]]]
-00:34:40.688 INFO - Executing: [find element: By.cssSelector: #design-skills])
-00:34:40.716 INFO - Done: [find element: By.cssSelector: #design-skills]
-00:34:40.720 INFO - Executing: [get text: 25 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=design-skills]]])
-00:34:40.757 INFO - Done: [get text: 25 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=design-skills]]]
-00:34:40.762 INFO - Executing: [find element: By.cssSelector: h2[id=frameworks]])
-00:34:40.791 INFO - Done: [find element: By.cssSelector: h2[id=frameworks]]
-00:34:40.795 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=frameworks]]])
-00:34:40.822 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=frameworks]]]
-00:34:40.827 INFO - Executing: [find element: By.cssSelector: #frameworks])
-00:34:40.852 INFO - Done: [find element: By.cssSelector: #frameworks]
-00:34:40.856 INFO - Executing: [get text: 26 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=frameworks]]])
-00:34:40.891 INFO - Done: [get text: 26 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=frameworks]]]
-00:34:40.895 INFO - Executing: [find element: By.cssSelector: h2[id=other-skills]])
-00:34:40.921 INFO - Done: [find element: By.cssSelector: h2[id=other-skills]]
-00:34:40.924 INFO - Executing: [is displayed: 27 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=other-skills]]])
-00:34:40.951 INFO - Done: [is displayed: 27 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=other-skills]]]
-00:34:40.957 INFO - Executing: [find element: By.cssSelector: #other-skills])
-00:34:40.984 INFO - Done: [find element: By.cssSelector: #other-skills]
-00:34:40.986 INFO - Executing: [get text: 27 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=other-skills]]])
-00:34:41.016 INFO - Done: [get text: 27 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: h2[id=other-skills]]]
-00:34:41.019 INFO - Executing: [find element: By.cssSelector: footer[id=contact]])
-00:34:41.046 INFO - Done: [find element: By.cssSelector: footer[id=contact]]
-00:34:41.048 INFO - Executing: [is displayed: 28 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: footer[id=contact]]])
-00:34:41.074 INFO - Done: [is displayed: 28 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: footer[id=contact]]]
-00:34:41.078 INFO - Executing: [find element: By.cssSelector: div[class=links]])
-00:34:41.104 INFO - Done: [find element: By.cssSelector: div[class=links]]
-00:34:41.107 INFO - Executing: [is displayed: 29 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=links]]])
-00:34:41.132 INFO - Done: [is displayed: 29 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: div[class=links]]]
-00:34:41.134 INFO - Executing: [find element: By.cssSelector: a[id=github]])
-00:34:41.161 INFO - Done: [find element: By.cssSelector: a[id=github]]
-00:34:41.163 INFO - Executing: [is displayed: 30 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=github]]])
-00:34:41.189 INFO - Done: [is displayed: 30 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=github]]]
-00:34:41.192 INFO - Executing: [find element: By.cssSelector: a[id=linkedin]])
-00:34:41.218 INFO - Done: [find element: By.cssSelector: a[id=linkedin]]
-00:34:41.221 INFO - Executing: [is displayed: 31 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=linkedin]]])
-00:34:41.247 INFO - Done: [is displayed: 31 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=linkedin]]]
-00:34:41.250 INFO - Executing: [find element: By.cssSelector: a[id=codewars]])
-00:34:41.277 INFO - Done: [find element: By.cssSelector: a[id=codewars]]
-00:34:41.279 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=codewars]]])
-00:34:41.305 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=codewars]]]
-00:34:41.308 INFO - Executing: [find element: By.cssSelector: a[id=twitter]])
-00:34:41.332 INFO - Done: [find element: By.cssSelector: a[id=twitter]]
-00:34:41.334 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=twitter]]])
-00:34:41.360 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: a[id=twitter]]]
-00:34:41.362 INFO - Executing: [find element: By.cssSelector: #burger])
-00:34:41.388 INFO - Done: [find element: By.cssSelector: #burger]
-00:34:41.391 INFO - Executing: [is displayed: 34 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #burger]])
-00:34:41.413 INFO - Done: [is displayed: 34 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #burger]]
-00:34:41.418 INFO - Executing: [set window size])
-00:34:41.597 INFO - Done: [set window size]
-00:34:41.600 INFO - Executing: [find element: By.cssSelector: #burger])
-00:34:41.610 INFO - Done: [find element: By.cssSelector: #burger]
-00:34:41.612 INFO - Executing: [is displayed: 34 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #burger]])
-00:34:41.626 INFO - Done: [is displayed: 34 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: #burger]]
-00:34:41.629 INFO - Executing: [maximise window])
-00:34:42.044 INFO - Done: [maximise window]
-00:34:42.049 INFO - Executing: [find element: By.cssSelector: .nav-link])
-00:34:42.074 INFO - Done: [find element: By.cssSelector: .nav-link]
-00:34:42.076 INFO - Executing: [get value of css property: 35 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .nav-link], background-color])
-00:34:42.097 INFO - Done: [get value of css property: 35 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .nav-link], background-color]
-00:34:42.099 INFO - Executing: [set window size])
-00:34:42.605 INFO - Done: [set window size]
-00:34:42.608 INFO - Executing: [find element: By.cssSelector: .nav-link])
-00:34:42.630 INFO - Done: [find element: By.cssSelector: .nav-link]
-00:34:42.632 INFO - Executing: [get value of css property: 35 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .nav-link], background-color])
-00:34:42.642 INFO - Done: [get value of css property: 35 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .nav-link], background-color]
-00:34:42.645 INFO - Executing: [find element: By.cssSelector: .fixed-header])
-00:34:42.672 INFO - Done: [find element: By.cssSelector: .fixed-header]
-00:34:42.675 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .fixed-header]])
-00:34:42.700 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .fixed-header]]
-00:34:42.703 INFO - Executing: [find element: By.cssSelector: .about-section__wrapper])
-00:34:42.731 INFO - Done: [find element: By.cssSelector: .about-section__wrapper]
-00:34:42.736 INFO - Executing: [mousemove: 15 true])
-00:34:42.766 INFO - Done: [mousemove: 15 true]
-00:34:42.772 INFO - Executing: [find element: By.cssSelector: .fixed-header])
-00:34:42.797 INFO - Done: [find element: By.cssSelector: .fixed-header]
-00:34:42.801 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .fixed-header]])
-00:34:42.816 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on MAC (41e2c74d0f79a7f915d5419c0110820e)] -> css selector: .fixed-header]]
-00:34:42.819 INFO - Executing: [delete session: 431d8a6d-8090-4b53-847b-2bbf65efba74])
-00:34:42.922 INFO - Done: [delete session: 431d8a6d-8090-4b53-847b-2bbf65efba74]
+00:51:02.984 INFO - Executing: [get: file:///Users/peterrhodes/Desktop/cv-portfolio/index.html])
+00:51:05.229 INFO - Done: [get: file:///Users/peterrhodes/Desktop/cv-portfolio/index.html]
+00:51:05.240 INFO - Executing: [find elements: By.cssSelector: body])
+00:51:05.290 INFO - Done: [find elements: By.cssSelector: body]
+00:51:05.295 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: body]])
+00:51:05.336 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: body]]
+00:51:05.344 INFO - Executing: [take screenshot])
+00:51:05.531 INFO - Done: [take screenshot]
+00:51:05.556 INFO - Executing: [get title])
+00:51:05.565 INFO - Done: [get title]
+00:51:05.572 INFO - Executing: [find element: By.cssSelector: ul[class=topnav]])
+00:51:05.598 INFO - Done: [find element: By.cssSelector: ul[class=topnav]]
+00:51:05.601 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: ul[class=topnav]]])
+00:51:05.642 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: ul[class=topnav]]]
+00:51:05.647 INFO - Executing: [find element: By.cssSelector: div[class=nav__text-container]])
+00:51:05.694 INFO - Done: [find element: By.cssSelector: div[class=nav__text-container]]
+00:51:05.697 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=nav__text-container]]])
+00:51:05.742 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=nav__text-container]]]
+00:51:05.747 INFO - Executing: [find element: By.cssSelector: div[class=projects]])
+00:51:05.793 INFO - Done: [find element: By.cssSelector: div[class=projects]]
+00:51:05.796 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=projects]]])
+00:51:05.843 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=projects]]]
+00:51:05.848 INFO - Executing: [find element: By.cssSelector: img[class=project1]])
+00:51:05.877 INFO - Done: [find element: By.cssSelector: img[class=project1]]
+00:51:05.881 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project1]]])
+00:51:05.911 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project1]]]
+00:51:05.917 INFO - Executing: [find element: By.cssSelector: #proj1])
+00:51:05.948 INFO - Done: [find element: By.cssSelector: #proj1]
+00:51:05.951 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj1], href])
+00:51:05.963 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj1], href]
+00:51:05.969 INFO - Executing: [find element: By.cssSelector: img[class=project2]])
+00:51:05.999 INFO - Done: [find element: By.cssSelector: img[class=project2]]
+00:51:06.003 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project2]]])
+00:51:06.031 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project2]]]
+00:51:06.035 INFO - Executing: [find element: By.cssSelector: #proj2])
+00:51:06.064 INFO - Done: [find element: By.cssSelector: #proj2]
+00:51:06.067 INFO - Executing: [get element attribute: 7 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj2], href])
+00:51:06.080 INFO - Done: [get element attribute: 7 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj2], href]
+00:51:06.086 INFO - Executing: [find element: By.cssSelector: img[class=project3]])
+00:51:06.115 INFO - Done: [find element: By.cssSelector: img[class=project3]]
+00:51:06.119 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project3]]])
+00:51:06.145 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project3]]]
+00:51:06.152 INFO - Executing: [find element: By.cssSelector: #proj3])
+00:51:06.185 INFO - Done: [find element: By.cssSelector: #proj3]
+00:51:06.190 INFO - Executing: [get element attribute: 9 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj3], href])
+00:51:06.203 INFO - Done: [get element attribute: 9 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj3], href]
+00:51:06.208 INFO - Executing: [find element: By.cssSelector: img[class=project4]])
+00:51:06.236 INFO - Done: [find element: By.cssSelector: img[class=project4]]
+00:51:06.242 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project4]]])
+00:51:06.269 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project4]]]
+00:51:06.277 INFO - Executing: [find element: By.cssSelector: #proj4])
+00:51:06.302 INFO - Done: [find element: By.cssSelector: #proj4]
+00:51:06.305 INFO - Executing: [get element attribute: 11 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj4], href])
+00:51:06.316 INFO - Done: [get element attribute: 11 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj4], href]
+00:51:06.326 INFO - Executing: [find element: By.cssSelector: img[class=project5]])
+00:51:06.352 INFO - Done: [find element: By.cssSelector: img[class=project5]]
+00:51:06.355 INFO - Executing: [is displayed: 12 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project5]]])
+00:51:06.381 INFO - Done: [is displayed: 12 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project5]]]
+00:51:06.385 INFO - Executing: [find element: By.cssSelector: #proj5])
+00:51:06.415 INFO - Done: [find element: By.cssSelector: #proj5]
+00:51:06.418 INFO - Executing: [get element attribute: 13 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj5], href])
+00:51:06.429 INFO - Done: [get element attribute: 13 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #proj5], href]
+00:51:06.435 INFO - Executing: [find element: By.cssSelector: img[class=project6]])
+00:51:06.461 INFO - Done: [find element: By.cssSelector: img[class=project6]]
+00:51:06.463 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project6]]])
+00:51:06.490 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: img[class=project6]]]
+00:51:06.494 INFO - Executing: [find element: By.cssSelector: div[class=about-section__wrapper]])
+00:51:06.521 INFO - Done: [find element: By.cssSelector: div[class=about-section__wrapper]]
+00:51:06.526 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=about-section__wrapper]]])
+00:51:06.551 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=about-section__wrapper]]]
+00:51:06.558 INFO - Executing: [find element: By.cssSelector: a[id=link-to-cv]])
+00:51:06.584 INFO - Done: [find element: By.cssSelector: a[id=link-to-cv]]
+00:51:06.589 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=link-to-cv]]])
+00:51:06.615 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=link-to-cv]]]
+00:51:06.619 INFO - Executing: [find element: By.cssSelector: p[id=about__para1]])
+00:51:06.649 INFO - Done: [find element: By.cssSelector: p[id=about__para1]]
+00:51:06.652 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para1]]])
+00:51:06.678 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para1]]]
+00:51:06.681 INFO - Executing: [find element: By.cssSelector: p[id=about__para2]])
+00:51:06.708 INFO - Done: [find element: By.cssSelector: p[id=about__para2]]
+00:51:06.711 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para2]]])
+00:51:06.740 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para2]]]
+00:51:06.744 INFO - Executing: [find element: By.cssSelector: p[id=about__para3]])
+00:51:06.773 INFO - Done: [find element: By.cssSelector: p[id=about__para3]]
+00:51:06.778 INFO - Executing: [is displayed: 19 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para3]]])
+00:51:06.809 INFO - Done: [is displayed: 19 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para3]]]
+00:51:06.814 INFO - Executing: [find element: By.cssSelector: p[id=about__para4]])
+00:51:06.847 INFO - Done: [find element: By.cssSelector: p[id=about__para4]]
+00:51:06.851 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para4]]])
+00:51:06.878 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: p[id=about__para4]]]
+00:51:06.884 INFO - Executing: [find element: By.cssSelector: div[class=skills-section__wrapper]])
+00:51:06.917 INFO - Done: [find element: By.cssSelector: div[class=skills-section__wrapper]]
+00:51:06.920 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=skills-section__wrapper]]])
+00:51:06.949 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=skills-section__wrapper]]]
+00:51:06.953 INFO - Executing: [find element: By.cssSelector: h2[id=languages]])
+00:51:06.979 INFO - Done: [find element: By.cssSelector: h2[id=languages]]
+00:51:06.981 INFO - Executing: [is displayed: 22 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=languages]]])
+00:51:07.007 INFO - Done: [is displayed: 22 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=languages]]]
+00:51:07.010 INFO - Executing: [find element: By.cssSelector: #languages])
+00:51:07.036 INFO - Done: [find element: By.cssSelector: #languages]
+00:51:07.039 INFO - Executing: [get text: 22 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=languages]]])
+00:51:07.072 INFO - Done: [get text: 22 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=languages]]]
+00:51:07.077 INFO - Executing: [find element: By.cssSelector: h2[id=testing]])
+00:51:07.101 INFO - Done: [find element: By.cssSelector: h2[id=testing]]
+00:51:07.105 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=testing]]])
+00:51:07.132 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=testing]]]
+00:51:07.135 INFO - Executing: [find element: By.cssSelector: #testing])
+00:51:07.165 INFO - Done: [find element: By.cssSelector: #testing]
+00:51:07.168 INFO - Executing: [get text: 23 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=testing]]])
+00:51:07.197 INFO - Done: [get text: 23 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=testing]]]
+00:51:07.200 INFO - Executing: [find element: By.cssSelector: h2[id=databases]])
+00:51:07.229 INFO - Done: [find element: By.cssSelector: h2[id=databases]]
+00:51:07.231 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=databases]]])
+00:51:07.257 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=databases]]]
+00:51:07.260 INFO - Executing: [find element: By.cssSelector: #databases])
+00:51:07.284 INFO - Done: [find element: By.cssSelector: #databases]
+00:51:07.286 INFO - Executing: [get text: 24 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=databases]]])
+00:51:07.316 INFO - Done: [get text: 24 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=databases]]]
+00:51:07.319 INFO - Executing: [find element: By.cssSelector: h2[id=design-skills]])
+00:51:07.345 INFO - Done: [find element: By.cssSelector: h2[id=design-skills]]
+00:51:07.348 INFO - Executing: [is displayed: 25 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=design-skills]]])
+00:51:07.375 INFO - Done: [is displayed: 25 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=design-skills]]]
+00:51:07.378 INFO - Executing: [find element: By.cssSelector: #design-skills])
+00:51:07.407 INFO - Done: [find element: By.cssSelector: #design-skills]
+00:51:07.410 INFO - Executing: [get text: 25 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=design-skills]]])
+00:51:07.442 INFO - Done: [get text: 25 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=design-skills]]]
+00:51:07.447 INFO - Executing: [find element: By.cssSelector: h2[id=frameworks]])
+00:51:07.471 INFO - Done: [find element: By.cssSelector: h2[id=frameworks]]
+00:51:07.475 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=frameworks]]])
+00:51:07.502 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=frameworks]]]
+00:51:07.509 INFO - Executing: [find element: By.cssSelector: #frameworks])
+00:51:07.535 INFO - Done: [find element: By.cssSelector: #frameworks]
+00:51:07.537 INFO - Executing: [get text: 26 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=frameworks]]])
+00:51:07.571 INFO - Done: [get text: 26 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=frameworks]]]
+00:51:07.576 INFO - Executing: [find element: By.cssSelector: h2[id=other-skills]])
+00:51:07.601 INFO - Done: [find element: By.cssSelector: h2[id=other-skills]]
+00:51:07.603 INFO - Executing: [is displayed: 27 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=other-skills]]])
+00:51:07.628 INFO - Done: [is displayed: 27 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=other-skills]]]
+00:51:07.632 INFO - Executing: [find element: By.cssSelector: #other-skills])
+00:51:07.658 INFO - Done: [find element: By.cssSelector: #other-skills]
+00:51:07.660 INFO - Executing: [get text: 27 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=other-skills]]])
+00:51:07.697 INFO - Done: [get text: 27 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: h2[id=other-skills]]]
+00:51:07.700 INFO - Executing: [find element: By.cssSelector: footer[id=contact]])
+00:51:07.727 INFO - Done: [find element: By.cssSelector: footer[id=contact]]
+00:51:07.729 INFO - Executing: [is displayed: 28 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: footer[id=contact]]])
+00:51:07.755 INFO - Done: [is displayed: 28 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: footer[id=contact]]]
+00:51:07.760 INFO - Executing: [find element: By.cssSelector: div[class=links]])
+00:51:07.785 INFO - Done: [find element: By.cssSelector: div[class=links]]
+00:51:07.788 INFO - Executing: [is displayed: 29 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=links]]])
+00:51:07.813 INFO - Done: [is displayed: 29 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: div[class=links]]]
+00:51:07.815 INFO - Executing: [find element: By.cssSelector: a[id=github]])
+00:51:07.843 INFO - Done: [find element: By.cssSelector: a[id=github]]
+00:51:07.846 INFO - Executing: [is displayed: 30 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=github]]])
+00:51:07.873 INFO - Done: [is displayed: 30 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=github]]]
+00:51:07.877 INFO - Executing: [find element: By.cssSelector: a[id=linkedin]])
+00:51:07.902 INFO - Done: [find element: By.cssSelector: a[id=linkedin]]
+00:51:07.905 INFO - Executing: [is displayed: 31 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=linkedin]]])
+00:51:07.930 INFO - Done: [is displayed: 31 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=linkedin]]]
+00:51:07.933 INFO - Executing: [find element: By.cssSelector: a[id=codewars]])
+00:51:07.958 INFO - Done: [find element: By.cssSelector: a[id=codewars]]
+00:51:07.960 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=codewars]]])
+00:51:07.986 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=codewars]]]
+00:51:07.989 INFO - Executing: [find element: By.cssSelector: a[id=twitter]])
+00:51:08.015 INFO - Done: [find element: By.cssSelector: a[id=twitter]]
+00:51:08.017 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=twitter]]])
+00:51:08.045 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: a[id=twitter]]]
+00:51:08.048 INFO - Executing: [find element: By.cssSelector: #burger])
+00:51:08.075 INFO - Done: [find element: By.cssSelector: #burger]
+00:51:08.078 INFO - Executing: [is displayed: 34 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #burger]])
+00:51:08.102 INFO - Done: [is displayed: 34 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #burger]]
+00:51:08.108 INFO - Executing: [set window size])
+00:51:08.276 INFO - Done: [set window size]
+00:51:08.279 INFO - Executing: [find element: By.cssSelector: #burger])
+00:51:08.288 INFO - Done: [find element: By.cssSelector: #burger]
+00:51:08.291 INFO - Executing: [is displayed: 34 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #burger]])
+00:51:08.302 INFO - Done: [is displayed: 34 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: #burger]]
+00:51:08.317 INFO - Executing: [maximise window])
+00:51:08.839 INFO - Done: [maximise window]
+00:51:08.843 INFO - Executing: [find element: By.cssSelector: .nav-link])
+00:51:08.869 INFO - Done: [find element: By.cssSelector: .nav-link]
+00:51:08.871 INFO - Executing: [get value of css property: 35 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .nav-link], background-color])
+00:51:08.894 INFO - Done: [get value of css property: 35 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .nav-link], background-color]
+00:51:08.896 INFO - Executing: [set window size])
+00:51:09.411 INFO - Done: [set window size]
+00:51:09.414 INFO - Executing: [find element: By.cssSelector: .nav-link])
+00:51:09.424 INFO - Done: [find element: By.cssSelector: .nav-link]
+00:51:09.426 INFO - Executing: [get value of css property: 35 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .nav-link], background-color])
+00:51:09.436 INFO - Done: [get value of css property: 35 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .nav-link], background-color]
+00:51:09.441 INFO - Executing: [find element: By.cssSelector: .fixed-header])
+00:51:09.467 INFO - Done: [find element: By.cssSelector: .fixed-header]
+00:51:09.469 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .fixed-header]])
+00:51:09.495 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .fixed-header]]
+00:51:09.498 INFO - Executing: [find element: By.cssSelector: .about-section__wrapper])
+00:51:09.523 INFO - Done: [find element: By.cssSelector: .about-section__wrapper]
+00:51:09.526 INFO - Executing: [mousemove: 15 true])
+00:51:09.556 INFO - Done: [mousemove: 15 true]
+00:51:09.561 INFO - Executing: [find element: By.cssSelector: .fixed-header])
+00:51:09.585 INFO - Done: [find element: By.cssSelector: .fixed-header]
+00:51:09.590 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .fixed-header]])
+00:51:09.602 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on MAC (af876901d244af4354e3a6f46c82b870)] -> css selector: .fixed-header]]
+00:51:09.607 INFO - Executing: [delete session: 68e90e5b-db8f-4a91-acde-2306bbc72776])
+00:51:09.693 INFO - Done: [delete session: 68e90e5b-db8f-4a91-acde-2306bbc72776]
