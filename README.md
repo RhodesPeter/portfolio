@@ -1,6 +1,8 @@
 # CV Portfolio
 Portfolio website - build without frameworks and libraries
 
+[![Codeship](https://img.shields.io/codeship/f53a8250-d082-0134-b1ad-3e94eb502bad.svg)](https://codeship.com/projects/201245)
+
 You can find this website hosted [here](https://rhodespeter.github.io/portfolio/).
 
 This project is a work in progress, feel free to leave some issues if anything stands out.
