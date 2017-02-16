@@ -24,13 +24,13 @@ body {
 }
 
 .nav__title {
-  margin-bottom: 10px;
-  font-size: 2.8em;
+  margin-bottom: 15px;
+  font-size: 2.3em;
   letter-spacing: .035em;
 }
 
 .nav__subheader {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: -10px 0 -2px 0;
 }
 
@@ -180,19 +180,15 @@ hr {
 }
 
 .icon-codewars {
-  height: 19px;
-  width: 19px;
   display: inline-block;
-  fill: currentColor;
   font-family: untitled-font-3;
   font-size: 21px;
-  display:inline-block;
   position:relative;
   top: 1.5px;
 }
 
 .links {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 700px;
   white-space: nowrap;
 }
@@ -212,18 +208,17 @@ hr {
 }
 
 @media only screen and (min-width: 440px) {
+  .nav__title {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
 
-  .nav__text-container__subheader {
+  .nav__subheader {
     font-size: 1.5em;
   }
 
   .nav__text-container {
     font-size: 1.1em;
-  }
-
-  .col-2 {
-    width: 50%;
-    height: 210px;
   }
 
   .skills-section__wrapper {
@@ -263,7 +258,7 @@ hr {
 
   .skills-section__wrapper {
     max-width: 1150px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
   }
 }
 
@@ -284,7 +279,6 @@ hr {
 }
 
 @media only screen and (min-width: 1185px) {
-
   .skills-margin-top {
     margin-top: 0;
   }
