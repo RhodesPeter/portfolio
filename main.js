@@ -77,33 +77,33 @@ function mouseLeave(project, url){
 var mediaQuery = window.matchMedia( "(min-width: 700px)" );
 
 if (mediaQuery.matches) {
-  project1.addEventListener("mouseover", function(){mouseOver(project1, 'assets/autocomp2.svg')});
-  project1.addEventListener("mouseleave", function(){mouseLeave(project1, 'assets/autocomp.svg')});
+  project1.addEventListener("mouseover", function(){mouseOver(project1, 'assets/autocomp2.png')});
+  project1.addEventListener("mouseleave", function(){mouseLeave(project1, 'assets/autocomp.png')});
 
-  project2.addEventListener("mouseover", function(){mouseOver(project2, 'assets/drawing-app2.svg')});
-  project2.addEventListener("mouseleave", function(){mouseLeave(project2, 'assets/drawing-app.svg')});
+  project2.addEventListener("mouseover", function(){mouseOver(project2, 'assets/drawing-app2.png')});
+  project2.addEventListener("mouseleave", function(){mouseLeave(project2, 'assets/drawing-app.png')});
 
-  project3.addEventListener("mouseover", function(){mouseOver(project3, 'assets/hacker2.svg')});
-  project3.addEventListener("mouseleave", function(){mouseLeave(project3, 'assets/hacker.svg')});
+  project3.addEventListener("mouseover", function(){mouseOver(project3, 'assets/hacker2.png')});
+  project3.addEventListener("mouseleave", function(){mouseLeave(project3, 'assets/hacker.png')});
 
-  project4.addEventListener("mouseover", function(){mouseOver(project4, 'assets/welcome-to-camhs2.svg')});
-  project4.addEventListener("mouseleave", function(){mouseLeave(project4, 'assets/welcome-to-camhs.svg')});
+  project4.addEventListener("mouseover", function(){mouseOver(project4, 'assets/welcome-to-camhs2.png')});
+  project4.addEventListener("mouseleave", function(){mouseLeave(project4, 'assets/welcome-to-camhs.png')});
 
-  project5.addEventListener("mouseover", function(){mouseOver(project5, 'assets/stopwatch2.svg')});
-  project5.addEventListener("mouseleave", function(){mouseLeave(project5, 'assets/stopwatch.svg')});
+  project5.addEventListener("mouseover", function(){mouseOver(project5, 'assets/stopwatch2.png')});
+  project5.addEventListener("mouseleave", function(){mouseLeave(project5, 'assets/stopwatch.png')});
 
-  project6.addEventListener("mouseover", function(){mouseOver(project6, 'assets/coming-soon2.svg')});
-  project6.addEventListener("mouseleave", function(){mouseLeave(project6, 'assets/coming-soon.svg')});
+  project6.addEventListener("mouseover", function(){mouseOver(project6, 'assets/coming-soon2.png')});
+  project6.addEventListener("mouseleave", function(){mouseLeave(project6, 'assets/coming-soon.png')});
 } else {
-  project1.setAttribute('src', 'assets/autocomp2.svg');
+  project1.setAttribute('src', 'assets/autocomp2.png');
 
-  project2.setAttribute('src', 'assets/drawing-app2.svg');
+  project2.setAttribute('src', 'assets/drawing-app2.png');
 
-  project3.setAttribute('src', 'assets/hacker2.svg');
+  project3.setAttribute('src', 'assets/hacker2.png');
 
-  project4.setAttribute('src', 'assets/welcome-to-camhs2.svg');
+  project4.setAttribute('src', 'assets/welcome-to-camhs2.png');
 
-  project5.setAttribute('src', 'assets/stopwatch2.svg');
+  project5.setAttribute('src', 'assets/stopwatch2.png');
 
-  project6.setAttribute('src', 'assets/coming-soon2.svg');
+  project6.setAttribute('src', 'assets/coming-soon2.png');
 }
