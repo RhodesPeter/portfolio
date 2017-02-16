@@ -456,9 +456,9 @@ BbIBLPWCdENSHnXxFUY06vH7G/yncCPyPTgLPJ9T/pfg5UcjNFphAiXeT1GYQl+Cd/o1/gu9gU+U
 	]]>
 </i:pgf>
 <style>
-	@font-face {
-		font-family: Actor-Regular;
-		src: url(assets/typeface/actor.ttf);
-	}
+		@font-face {
+				font-family: Actor-Regular;
+				src: url(./typeface/actor.ttf);
+		}
 </style>
 </svg>
