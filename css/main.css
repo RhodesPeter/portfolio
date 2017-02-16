@@ -117,17 +117,17 @@ hr {
   width: 100%;
   height: 46px;
   background-color: #659df7;
-  opacity: 0;
+  display: none;
   padding: 8px 0 0 15px;
+  z-index: 1;
+}
+
+.visible {
+  display: block;
 }
 
 .no-list-style {
   list-style: none;
-}
-
-.opacity {
-  opacity: 1;
-  z-index: 1;
 }
 
 .projects {
