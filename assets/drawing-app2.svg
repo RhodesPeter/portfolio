@@ -24,14 +24,14 @@
 		<line fill="none" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="4.5" y1="28.8" x2="788.5" y2="28.8"/>
 		<g>
 
-				<text transform="matrix(1 -6.110000e-03 6.110000e-03 1 224.4788 159.6983)" fill="#FFD44C" font-family="'arial'" font-size="61.1153px">Drawing App</text>
+				<text transform="matrix(1 -6.110000e-03 6.110000e-03 1 224.4788 159.6983)" fill="#FFD44C" font-family="'verdana'" font-size="61.1153px">Drawing App</text>
 		</g>
 		<rect x="153" y="83" fill="none" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" width="487" height="289.7"/>
 		<rect x="313.6" y="318.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="438.8" height="116"/>
 		<rect x="43.5" y="318.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="240" height="116"/>
-		<text transform="matrix(1 0 0 1 62.555 388.2818)" fill="#FFD44C" font-family="'arial'" font-size="37.0829px">View Project</text>
-		<text transform="matrix(1 0 0 1 347.555 365.8012)" fill="#FFD44C" font-family="'arial'" font-size="37.0829px">HTML   CSS   JavaScript</text>
-		<text transform="matrix(1 0 0 1 336.555 410.7625)" fill="#FFD44C" font-family="'arial'" font-size="37.0829px">Hapi.js   Node.js   Heroku</text>
+		<text transform="matrix(1 0 0 1 62.555 388.2818)" fill="#FFD44C" font-family="'verdana'" font-size="37.0829px">View Project</text>
+		<text transform="matrix(1 0 0 1 347.555 365.8012)" fill="#FFD44C" font-family="'verdana'" font-size="37.0829px">HTML   CSS   JavaScript</text>
+		<text transform="matrix(1 0 0 1 336.555 410.7625)" fill="#FFD44C" font-family="'verdana'" font-size="37.0829px">Hapi.js   Node.js   Heroku</text>
 	</g>
 </switch>
 <i:pgf  id="adobe_illustrator_pgf">

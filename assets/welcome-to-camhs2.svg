@@ -23,25 +23,25 @@
 			c0-3.7,3-6.7,6.7-6.7h770.6c3.7,0,6.7,3,6.7,6.7v455.1C788.5,470,785.5,473,781.8,473z"/>
 		<line fill="none" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="4.5" y1="28.8" x2="788.5" y2="28.8"/>
 		<rect x="52.6" y="785.1" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="240" height="116"/>
-		<text transform="matrix(1 0 0 1 72.555 855.8715)" fill="#FFD44C" font-family="'MyriadPro-Semibold'" font-size="37.0829px">View Project</text>
+		<text transform="matrix(1 0 0 1 72.555 855.8715)" fill="#FFD44C" font-family="'verdana'" font-size="37.0829px">View Project</text>
 		<g>
 
-				<text transform="matrix(1 -3.610000e-03 3.610000e-03 1 146.3816 564.06)" fill="#FFD44C" font-family="'MyriadPro-Semibold'" font-size="61.1153px">Welcome to CAMHS</text>
+				<text transform="matrix(1 -3.610000e-03 3.610000e-03 1 146.3816 564.06)" fill="#FFD44C" font-family="'verdana'" font-size="61.1153px">Welcome to CAMHS</text>
 		</g>
 		<ellipse fill="#FFFFFF" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" cx="396.5" cy="219.5" rx="106.7" ry="105.7"/>
 		<rect x="325.8" y="785.1" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="438.8" height="116"/>
-		<text transform="matrix(1 0 0 1 369.8337 855.8712)" fill="#FFD44C" font-family="'MyriadPro-Semibold'" font-size="37.0829px">HTML, CSS, JavaScript</text>
+		<text transform="matrix(1 0 0 1 369.8337 855.8712)" fill="#FFD44C" font-family="'verdana'" font-size="37.0829px">HTML, CSS, JavaScript</text>
 		<line fill="none" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="343.7" y1="375.8" x2="449.3" y2="375.8"/>
 		<line fill="none" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="327.5" y1="336.8" x2="465.5" y2="336.8"/>
 		<line fill="none" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="318.5" y1="356.8" x2="474.5" y2="356.8"/>
 		<rect x="40.5" y="321.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="240" height="116"/>
-		<text transform="matrix(1 0 0 1 60.4505 392.5103)" fill="#FFD44C" font-family="'arial'" font-size="37.0829px">View Project</text>
+		<text transform="matrix(1 0 0 1 60.4505 392.5103)" fill="#FFD44C" font-family="'verdana'" font-size="37.0829px">View Project</text>
 		<g>
 
-				<text transform="matrix(1 -3.610000e-03 3.610000e-03 1 134.2771 100.6989)" fill="#FFD44C" font-family="'arial'" font-size="61.1153px">Welcome to CAMHS</text>
+				<text transform="matrix(1 -3.610000e-03 3.610000e-03 1 134.2771 100.6989)" fill="#FFD44C" font-family="'verdana'" font-size="61.1153px">Welcome to CAMHS</text>
 		</g>
 		<rect x="313.7" y="321.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="438.8" height="116"/>
-		<text transform="matrix(1 0 0 1 357.7292 392.5101)" fill="#FFD44C" font-family="'arial'" font-size="37.0829px">HTML  CSS  JavaScript</text>
+		<text transform="matrix(1 0 0 1 357.7292 392.5101)" fill="#FFD44C" font-family="'verdana'" font-size="37.0829px">HTML  CSS  JavaScript</text>
 	</g>
 </switch>
 <i:pgf  id="adobe_illustrator_pgf">
