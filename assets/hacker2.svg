@@ -26,12 +26,12 @@
 		<line stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="345" y1="228.8" x2="448" y2="228.8"/>
 		<line stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="280" y1="184.8" x2="513" y2="184.8"/>
 		<rect x="312.1" y="319.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="438.8" height="116"/>
-		<text transform="matrix(1 0 0 1 356.1173 390.5101)" fill="#FFD44C" font-family="'Actor-Regular'" font-size="37.0829px">HTML  CSS  JavaScript</text>
+		<text transform="matrix(1 0 0 1 356.1173 390.5101)" fill="#FFD44C" font-family="'arial'" font-size="37.0829px">HTML  CSS  JavaScript</text>
 		<rect x="42.1" y="319.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="240" height="116"/>
-		<text transform="matrix(1 0 0 1 61.1173 389.2818)" fill="#FFD44C" font-family="'Actor-Regular'" font-size="37.0829px">View Project</text>
+		<text transform="matrix(1 0 0 1 61.1173 389.2818)" fill="#FFD44C" font-family="'arial'" font-size="37.0829px">View Project</text>
 		<g>
-			
-				<text transform="matrix(1 -6.110000e-03 6.110000e-03 1 232.4788 148.6983)" fill="#FFD44C" font-family="'Actor-Regular'" font-size="61.1153px">Hacker Alias</text>
+
+				<text transform="matrix(1 -6.110000e-03 6.110000e-03 1 232.4788 148.6983)" fill="#FFD44C" font-family="'arial'" font-size="61.1153px">Hacker Alias</text>
 		</g>
 	</g>
 </switch>
