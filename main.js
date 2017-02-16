@@ -51,9 +51,9 @@ burger.addEventListener("click", function() {
 window.onscroll = function() {
   var nav = document.getElementsByClassName('fixed-header')[0];
   if ( window.pageYOffset > project.offsetTop - 47 ) {
-      nav.classList.add("opacity");
+      nav.classList.add("visible");
   } else {
-      nav.classList.remove("opacity");
+      nav.classList.remove("visible");
   }
 }
 
