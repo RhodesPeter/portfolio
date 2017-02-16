@@ -8,6 +8,12 @@ body {
   font-size: 1.1em;
 }
 
+/* This is needed for the type on the SVG project images*/
+@font-face {
+  font-family: Actor-Regular;
+  src: url(assets/typeface/actor.ttf);
+}
+
 .nav {
   height: calc(80vh - 90px);
   background: linear-gradient(#659df7 0%, #5C8ED6 100%);
