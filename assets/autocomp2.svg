@@ -24,14 +24,14 @@
 		<rect x="229.6" y="174.8" fill="#659DF7" width="344" height="27"/>
 		<line fill="none" stroke="#659DF7" stroke-width="9" stroke-miterlimit="10" x1="4.5" y1="28.8" x2="788.5" y2="28.8"/>
 		<rect x="44.6" y="320.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="240" height="116"/>
-		<text transform="matrix(1 0 0 1 64.555 391.5103)" fill="#FFD44C" font-family="'Actor-Regular'" font-size="37.0829px">View Project</text>
+		<text transform="matrix(1 0 0 1 64.555 391.5103)" fill="#FFD44C" font-family="Actor-Regular" font-size="37.0829px">View Project</text>
 		<rect x="306.6" y="320.8" fill="#FFFFFF" stroke="#FFD44D" stroke-width="9" stroke-miterlimit="10" width="438.8" height="116"/>
-		<text transform="matrix(1 0 0 1 342.555 368.5101)" fill="#FFD44C" font-family="'Actor-Regular'" font-size="37.0829px">HTML   CSS   JavaScript</text>
+		<text transform="matrix(1 0 0 1 342.555 368.5101)" fill="#FFD44C" font-family="Actor-Regular" font-size="37.0829px">HTML   CSS   JavaScript</text>
 		<g>
 
-				<text transform="matrix(1 5.000000e-05 -5.000000e-05 1 152.5553 136.1071)" fill="#FFD44C" font-family="'Actor-Regular'" font-size="62px">Autocomplete App</text>
+				<text transform="matrix(1 5.000000e-05 -5.000000e-05 1 152.5553 136.1071)" fill="#FFD44C" font-family="Actor-Regular" font-size="62px">Autocomplete App</text>
 		</g>
-		<text transform="matrix(1 0 0 1 345.555 413.4714)" fill="#FFD44C" font-family="'Actor-Regular'" font-size="37.0829px">Tape   Node.js   Heroku</text>
+		<text transform="matrix(1 0 0 1 345.555 413.4714)" fill="#FFD44C" font-family="Actor-Regular" font-size="37.0829px">Tape   Node.js   Heroku</text>
 	</g>
 </switch>
 <i:pgf  id="adobe_illustrator_pgf">
