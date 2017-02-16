@@ -3,10 +3,9 @@
 }
 
 body {
+  box-sizing: border-box;
   font-family: 'Actor', sans-serif;
   font-size: 1.1em;
-  margin: 0;
-  padding: 0;
 }
 
 .nav {
@@ -24,14 +23,13 @@ body {
   margin-top: -3.4em;
 }
 
-.nav__text-container__title {
+.nav__title {
   margin-bottom: 10px;
   font-size: 2.8em;
   letter-spacing: .035em;
 }
 
-.nav__text-container__subheader {
-  color: white;
+.nav__subheader {
   font-size: 1.3em;
   margin: -10px 0 -2px 0;
 }
@@ -42,20 +40,16 @@ body {
 }
 
 hr {
-  display: block;
   border: 0;
   border-top: 2.8px solid black;
-  width: 40px;
-  align-self: center;
-  margin: 27px auto 27px auto;
+  width: 100px;
+  margin: 27px auto;
 }
 
 .about-section__wrapper {
   max-width: 750px;
-  margin: 0 auto 0 auto;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 0;
+  margin: 0 auto;
+  padding: 0 25px;
 }
 
 .skills-margin-top {
@@ -64,11 +58,7 @@ hr {
 
 .skills-section__wrapper {
   max-width: 1150px;
-  margin: 0 auto 0 auto;
-}
-
-.text-align {
-  text-align: center;
+  margin: 0 auto;
 }
 
 .text-align-right {
@@ -84,23 +74,8 @@ hr {
   text-decoration: none;
 }
 
-.active:hover {
-  color: white;
-}
-
 .point-separator::before {
   content: '';
-}
-
-.home-nav {
-  background-color: #659df7;
-}
-
-.home-nav__list {
-  font-size: 1.4em;
-  list-style-type: none;
-  margin: 0 20px 0 20px;
-  padding: 20px 0 20px 0;
 }
 
 .float-right {
@@ -111,16 +86,12 @@ hr {
   float: left;
 }
 
-.inline {
-  display: inline;
+.active:hover {
+  color: white;
 }
 
 .burger:hover {
   color: white;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .nav-link {
@@ -174,10 +145,6 @@ hr {
   height: 320px;
 }
 
-.text-centered {
-  text-align: center;
-}
-
 .no-padding {
   padding: 0;
 }
@@ -190,7 +157,7 @@ hr {
   margin-bottom: 0;
 }
 
-footer {
+.contact {
   height: 100%;
   background: linear-gradient(#659df7 0%, #5C8ED6 100%);
   text-align: center;
@@ -269,6 +236,10 @@ footer {
     min-height: 420px;
   }
 
+  .nav__text-container {
+    padding: 20px;
+  }
+
   [class*="col-"] {
     width: 50%;
     float: left;
@@ -299,6 +270,10 @@ footer {
 @media only screen and (min-width: 850px) {
   .nav-link {
     background-color: #659df7;
+  }
+
+  .nav__text-container {
+    padding: 0px;
   }
 
   .point-separator::before {
