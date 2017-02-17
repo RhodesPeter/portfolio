@@ -1,5 +1,9 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  outline: none !important;
 }
 
 body {
