@@ -16,24 +16,24 @@ var about = document.getElementsByClassName('about')[0];
 var skills = document.getElementsByClassName('skills')[0];
 var contact = document.getElementsByClassName('contact')[0];
 
-document.getElementsByClassName("link-to-top")[0].addEventListener("click", function(){
-  scrollTo(document.body, 0, 70);
-});
+// document.getElementsByClassName("link-to-top2")[0].addEventListener("click", function(){
+//   scrollTo(document.body, 0, 700);
+// });
 
 document.getElementsByClassName("link-to-portfolio")[0].addEventListener("click", function(){
-  scrollTo(document.body, project.offsetTop - 46, 70);
+  scrollTo(document.body, project.offsetTop - 46, 110);
 });
 
 document.getElementsByClassName("link-to-about")[0].addEventListener("click", function(){
-  scrollTo(document.body, about.offsetTop - 46, 70);
+  scrollTo(document.body, about.offsetTop - 46, 180);
 });
 
 document.getElementsByClassName("link-to-skills")[0].addEventListener("click", function(){
-  scrollTo(document.body, skills.offsetTop - 46, 70);
+  scrollTo(document.body, skills.offsetTop - 46, 210);
 });
 
 document.getElementsByClassName("link-to-contact")[0].addEventListener("click", function(){
-  scrollTo(document.body, contact.offsetTop - 46, 70);
+  scrollTo(document.body, contact.offsetTop - 46, 255);
 });
 
 // for nav bar
