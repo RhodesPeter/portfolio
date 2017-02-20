@@ -16,24 +16,42 @@ var about = document.getElementsByClassName('about')[0];
 var skills = document.getElementsByClassName('skills')[0];
 var contact = document.getElementsByClassName('contact')[0];
 
-// document.getElementsByClassName("link-to-top2")[0].addEventListener("click", function(){
-//   scrollTo(document.body, 0, 700);
-// });
-
 document.getElementsByClassName("link-to-portfolio")[0].addEventListener("click", function(){
-  scrollTo(document.body, project.offsetTop - 46, 110);
+  document.getElementById("myTopnav").className = "topnav";
+  scrollTo(document.body, project.offsetTop - 69, 110);
+
 });
 
 document.getElementsByClassName("link-to-about")[0].addEventListener("click", function(){
-  scrollTo(document.body, about.offsetTop - 46, 180);
+  document.getElementById("myTopnav").className = "topnav";
+  scrollTo(document.body, about.offsetTop - 69, 180);
 });
 
 document.getElementsByClassName("link-to-skills")[0].addEventListener("click", function(){
-  scrollTo(document.body, skills.offsetTop - 46, 210);
+  document.getElementById("myTopnav").className = "topnav";
+  scrollTo(document.body, skills.offsetTop - 69, 210);
 });
 
 document.getElementsByClassName("link-to-contact")[0].addEventListener("click", function(){
-  scrollTo(document.body, contact.offsetTop - 46, 255);
+  document.getElementById("myTopnav").className = "topnav";
+  scrollTo(document.body, contact.offsetTop - 69, 255);
+});
+
+// Fixed nav links
+document.getElementsByClassName("link-to-portfolio")[1].addEventListener("click", function(){
+  scrollTo(document.body, project.offsetTop - 69, 110);
+});
+
+document.getElementsByClassName("link-to-about")[1].addEventListener("click", function(){
+  scrollTo(document.body, about.offsetTop - 69, 180);
+});
+
+document.getElementsByClassName("link-to-skills")[1].addEventListener("click", function(){
+  scrollTo(document.body, skills.offsetTop - 69, 210);
+});
+
+document.getElementsByClassName("link-to-contact")[1].addEventListener("click", function(){
+  scrollTo(document.body, contact.offsetTop - 69, 255);
 });
 
 // for nav bar
@@ -47,10 +65,22 @@ burger.addEventListener("click", function() {
     }
 });
 
+// for fixed nav
+var burgerFixed = document.getElementsByClassName("burger")[1];
+burgerFixed.addEventListener("click", function() {
+    scrollTo(document.body, 0, 150);
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+});
+
 // for the height that the fixed-header starts at
 window.onscroll = function() {
   var nav = document.getElementsByClassName('fixed-header')[0];
-  if ( window.pageYOffset > project.offsetTop - 47 ) {
+  if ( window.pageYOffset > project.offsetTop - 70 ) {
       nav.classList.add("visible");
   } else {
       nav.classList.remove("visible");
@@ -96,14 +126,9 @@ if (mediaQuery.matches) {
   project6.addEventListener("mouseleave", function(){mouseLeave(project6, 'assets/coming-soon.svg')});
 } else {
   project1.setAttribute('src', 'assets/autocomp2.svg');
-
   project2.setAttribute('src', 'assets/drawing-app2.svg');
-
   project3.setAttribute('src', 'assets/hacker2.svg');
-
   project4.setAttribute('src', 'assets/welcome-to-camhs2.svg');
-
   project5.setAttribute('src', 'assets/stopwatch2.svg');
-
   project6.setAttribute('src', 'assets/coming-soon2.svg');
 }

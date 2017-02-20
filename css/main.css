@@ -117,12 +117,8 @@ hr {
 .fixed-header {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 46px;
-  background-color: #659df7;
   display: none;
-  padding: 8px 0 0 15px;
   z-index: 1;
 }
 
