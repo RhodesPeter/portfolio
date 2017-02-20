@@ -16,24 +16,37 @@ var about = document.getElementsByClassName('about')[0];
 var skills = document.getElementsByClassName('skills')[0];
 var contact = document.getElementsByClassName('contact')[0];
 
-// document.getElementsByClassName("link-to-top2")[0].addEventListener("click", function(){
-//   scrollTo(document.body, 0, 700);
-// });
-
 document.getElementsByClassName("link-to-portfolio")[0].addEventListener("click", function(){
-  scrollTo(document.body, project.offsetTop - 46, 110);
+  scrollTo(document.body, project.offsetTop - 69, 110);
 });
 
 document.getElementsByClassName("link-to-about")[0].addEventListener("click", function(){
-  scrollTo(document.body, about.offsetTop - 46, 180);
+  scrollTo(document.body, about.offsetTop - 69, 180);
 });
 
 document.getElementsByClassName("link-to-skills")[0].addEventListener("click", function(){
-  scrollTo(document.body, skills.offsetTop - 46, 210);
+  scrollTo(document.body, skills.offsetTop - 69, 210);
 });
 
 document.getElementsByClassName("link-to-contact")[0].addEventListener("click", function(){
-  scrollTo(document.body, contact.offsetTop - 46, 255);
+  scrollTo(document.body, contact.offsetTop - 69, 255);
+});
+
+// Fixed nav links
+document.getElementsByClassName("link-to-portfolio")[1].addEventListener("click", function(){
+  scrollTo(document.body, project.offsetTop - 69, 110);
+});
+
+document.getElementsByClassName("link-to-about")[1].addEventListener("click", function(){
+  scrollTo(document.body, about.offsetTop - 69, 180);
+});
+
+document.getElementsByClassName("link-to-skills")[1].addEventListener("click", function(){
+  scrollTo(document.body, skills.offsetTop - 69, 210);
+});
+
+document.getElementsByClassName("link-to-contact")[1].addEventListener("click", function(){
+  scrollTo(document.body, contact.offsetTop - 69, 255);
 });
 
 // for nav bar
@@ -50,7 +63,7 @@ burger.addEventListener("click", function() {
 // for the height that the fixed-header starts at
 window.onscroll = function() {
   var nav = document.getElementsByClassName('fixed-header')[0];
-  if ( window.pageYOffset > project.offsetTop - 47 ) {
+  if ( window.pageYOffset > project.offsetTop - 70 ) {
       nav.classList.add("visible");
   } else {
       nav.classList.remove("visible");
