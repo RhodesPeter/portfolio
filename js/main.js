@@ -89,41 +89,56 @@ window.onscroll = function() {
 
 // to change the project images on hover
 var project1 = document.getElementsByClassName("project1")[0];
-var project2 = document.getElementsByClassName("project2")[0];
-var project3 = document.getElementsByClassName("project3")[0];
-var project4 = document.getElementsByClassName("project4")[0];
-var project5 = document.getElementsByClassName("project5")[0];
-var project6 = document.getElementsByClassName("project6")[0];
+var project1B = document.getElementsByClassName("project1")[1];
 
-function mouseOver(project, url){
-  project.setAttribute('src', url);
+var project2 = document.getElementsByClassName("project2")[0];
+var project2B = document.getElementsByClassName("project2")[1];
+
+var project3 = document.getElementsByClassName("project3")[0];
+var project3B = document.getElementsByClassName("project3")[1];
+
+var project4 = document.getElementsByClassName("project4")[0];
+var project4B = document.getElementsByClassName("project4")[1];
+
+var project5 = document.getElementsByClassName("project5")[0];
+var project5B = document.getElementsByClassName("project5")[1];
+
+var project6 = document.getElementsByClassName("project6")[0];
+var project6B = document.getElementsByClassName("project6")[1];
+
+function mouseOver(project, projectB){
+  project.classList.add("not-visible");
+  projectB.classList.remove("not-visible");
+  projectB.classList.add("visible");
 }
 
-function mouseLeave(project, url){
-  project.setAttribute('src', url);
+function mouseLeave(project, projectB){
+  project.classList.remove("not-visible");
+  projectB.classList.remove("visible");
+  projectB.classList.add("not-visible");
 }
 
 // function so that project image viewed on mobile are in view with details
 var mediaQuery = window.matchMedia( "(min-width: 700px)" );
 
 if (mediaQuery.matches) {
-  project1.addEventListener("mouseover", function(){mouseOver(project1, 'assets/autocomp2.svg')});
-  project1.addEventListener("mouseleave", function(){mouseLeave(project1, 'assets/autocomp.svg')});
+  project1.addEventListener("mouseover", function(){mouseOver(project1, project1B)});
+  project1B.addEventListener("mouseleave", function(){mouseLeave(project1, project1B)});
 
-  project2.addEventListener("mouseover", function(){mouseOver(project2, 'assets/drawing-app2.svg')});
-  project2.addEventListener("mouseleave", function(){mouseLeave(project2, 'assets/drawing-app.svg')});
+  project2.addEventListener("mouseover", function(){mouseOver(project2, project2B)});
+  project2B.addEventListener("mouseleave", function(){mouseLeave(project2, project2B)});
 
-  project3.addEventListener("mouseover", function(){mouseOver(project3, 'assets/hacker2.svg')});
-  project3.addEventListener("mouseleave", function(){mouseLeave(project3, 'assets/hacker.svg')});
+  project3.addEventListener("mouseover", function(){mouseOver(project3, project3B)});
+  project3B.addEventListener("mouseleave", function(){mouseLeave(project3, project3B)});
 
-  project4.addEventListener("mouseover", function(){mouseOver(project4, 'assets/welcome-to-camhs2.svg')});
-  project4.addEventListener("mouseleave", function(){mouseLeave(project4, 'assets/welcome-to-camhs.svg')});
+  project4.addEventListener("mouseover", function(){mouseOver(project4, project4B)});
+  project4B.addEventListener("mouseleave", function(){mouseLeave(project4, project4B)});
 
-  project5.addEventListener("mouseover", function(){mouseOver(project5, 'assets/stopwatch2.svg')});
-  project5.addEventListener("mouseleave", function(){mouseLeave(project5, 'assets/stopwatch.svg')});
+  project5.addEventListener("mouseover", function(){mouseOver(project5, project5B)});
+  project5B.addEventListener("mouseleave", function(){mouseLeave(project5, project5B)});
 
-  project6.addEventListener("mouseover", function(){mouseOver(project6, 'assets/coming-soon2.svg')});
-  project6.addEventListener("mouseleave", function(){mouseLeave(project6, 'assets/coming-soon.svg')});
+  project6.addEventListener("mouseover", function(){mouseOver(project6, project6B)});
+  project6B.addEventListener("mouseleave", function(){mouseLeave(project6, project6B)});
 } else {
   project1.setAttribute('src', 'assets/autocomp2.svg');
   project2.setAttribute('src', 'assets/drawing-app2.svg');
