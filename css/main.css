@@ -122,8 +122,12 @@ hr {
   z-index: 1;
 }
 
+.not-visible {
+  display: none;
+}
+
 .visible {
-  display: block;
+  display: inline-block;
 }
 
 .no-list-style {
