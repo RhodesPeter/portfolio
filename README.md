@@ -6,7 +6,7 @@
 
 ### Portfolio website - build without frameworks and libraries
 
-You can find this website hosted [here](https://rhodespeter.github.io/portfolio/).
+You can find this website hosted [here](http://rhodespeter.co.uk).
 
 ### Testing technologies:
  1. Nightwatch.js
