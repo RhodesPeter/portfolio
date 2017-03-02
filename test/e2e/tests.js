@@ -4,6 +4,7 @@ module.exports = {
   'Assert Elements': function(browser) {
     browser
       .url("https://rhodespeter.github.io/portfolio/")
+      // .url("file:///Users/peterrhodes/Desktop/cv-portfolio/index.html")
       .waitForElementVisible('body')
       .saveScreenshot("test/screenshots/screenshot.png")
       .assert.title('Peter Rhodes Portfolio')
@@ -51,6 +52,7 @@ module.exports = {
       .isVisible("#burger", function(result) {
           this.assert.equal(result.value, false);
         })
+
       .resizeWindow(400, 600)
       .isVisible("#burger", function(result) {
           this.assert.equal(result.value, true);
@@ -58,12 +60,16 @@ module.exports = {
 
       .resizeWindow(2000, 1000)
       .assert.cssProperty(".nav-link", "background-color", "rgba(101, 157, 247, 1)")
+
       .resizeWindow(400, 600)
       .assert.cssProperty(".nav-link", "background-color", "rgba(92, 142, 214, 1)")
 
       .assert.hidden(".fixed-header")
       .moveToElement(".about-section__wrapper", 0, 0)
       .assert.visible(".fixed-header")
+
+      .click("#link-to-cv")
+      .assert.urlContains('http://rhodespeter.co.uk/cv')
 
       .end()
   }
