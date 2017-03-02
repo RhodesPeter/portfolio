@@ -8,12 +8,23 @@
 
 You can find this website hosted [here](http://rhodespeter.co.uk).
 
-### Testing technologies:
- 1. Nightwatch.js
- 2. Selenium
- 3. Codeship
-
 ### To run tests:
-  1. Clone or download this repo.
-  2. Type `npm install` into your terminal.
-  3. Type `npm test` into your terminal.
+Clone this repo:
+```
+git clone https://github.com/RhodesPeter/portfolio.git
+```
+Install node modules and run postinstall script:
+```
+npm install
+```
+Run the Nightwatch tests:
+```
+npm test
+```
+
+### Current tech stack
+
+- HTML5, CSS3, JavaScript
+- BEM naming conventions
+- e2e testing with Nightwatch.js
+- Continuous intergration with CodeShip
