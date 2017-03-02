@@ -8,6 +8,13 @@
 
 You can find this website hosted [here](http://rhodespeter.co.uk).
 
+### Current tech stack
+
+- HTML5, CSS3, JavaScript
+- BEM naming conventions
+- e2e testing with Nightwatch.js
+- Continuous intergration with CodeShip
+
 ### To run tests:
 Clone this repo:
 ```
@@ -21,10 +28,3 @@ Run the Nightwatch tests:
 ```
 npm test
 ```
-
-### Current tech stack
-
-- HTML5, CSS3, JavaScript
-- BEM naming conventions
-- e2e testing with Nightwatch.js
-- Continuous intergration with CodeShip
