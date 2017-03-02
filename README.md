@@ -6,7 +6,7 @@
 
 ### Portfolio website - build without frameworks and libraries
 
-You can find this website hosted [here](http://rhodespeter.co.uk).
+You can find the website hosted [here](http://rhodespeter.co.uk).
 
 ### Current tech stack
 
