@@ -20,7 +20,7 @@ Clone this repo:
 ```
 git clone https://github.com/RhodesPeter/portfolio.git
 ```
-Install node modules and run postinstall script:
+Install node modules and run post install script:
 ```
 npm install
 ```
