@@ -20,7 +20,7 @@ module.exports = {
       .assert.visible('img[class=project4]')
       .assert.attributeContains('#proj4', 'href', 'https://github.com/CYPIAPT-LNDSE/welcome-to-camhs/')
       .assert.visible('img[class=project5]')
-      .assert.attributeContains('#proj5', 'href', 'https://github.com/shiryz/stopWatch')
+      .assert.attributeContains('#proj5', 'href', 'https://stopwatch-in-react.herokuapp.com/')
       .assert.visible('img[class=project6]')
       .assert.visible('div[class=about-section__wrapper]')
       .assert.visible('a[id=link-to-cv]')
