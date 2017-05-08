@@ -4,14 +4,20 @@
 	 viewBox="337 -178.5 793 477.5" style="enable-background:new 337 -178.5 793 477.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#659DF7;stroke-width:9;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;stroke:#659DF7;stroke-width:9;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M1118.8,294.5H348.2c-3.7,0-6.7-3-6.7-6.7v-455.1c0-3.7,3-6.7,6.7-6.7h770.6c3.7,0,6.7,3,6.7,6.7v455.1
 	C1125.5,291.5,1122.5,294.5,1118.8,294.5z"/>
 <line class="st0" x1="341.5" y1="-149.7" x2="1125.5" y2="-149.7"/>
-<rect x="595.4" y="-4.7" class="st1" width="264.6" height="106.4"/>
-<rect x="625" y="17" class="st0" width="205.3" height="22.5"/>
-<rect x="650" y="61.2" class="st0" width="37.9" height="17.2"/>
-<rect x="708" y="61.2" class="st0" width="37.9" height="17.2"/>
-<rect x="766.3" y="61.2" class="st0" width="37.9" height="17.2"/>
+<rect x="534.2" y="-47.3" class="st0" width="221.6" height="215.2"/>
+<g>
+	<rect x="791.2" y="-47.3" class="st0" width="141.6" height="215.2"/>
+	<line class="st0" x1="791.2" y1="-24" x2="932.8" y2="-24"/>
+	<line class="st0" x1="791.2" y1="-0.7" x2="932.8" y2="-0.7"/>
+	<line class="st0" x1="791.2" y1="22.8" x2="932.8" y2="22.8"/>
+	<line class="st0" x1="791.2" y1="47" x2="932.8" y2="47"/>
+	<line class="st0" x1="791.2" y1="70.3" x2="932.8" y2="70.3"/>
+	<line class="st0" x1="791.2" y1="94.6" x2="932.8" y2="94.6"/>
+	<line class="st0" x1="791.2" y1="118.9" x2="932.8" y2="118.9"/>
+	<line class="st0" x1="791.2" y1="143.8" x2="932.8" y2="143.8"/>
+</g>
 </svg>
