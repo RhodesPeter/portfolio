@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="337 -178.5 793 477.5" style="enable-background:new 337 -178.5 793 477.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#659DF7;stroke-width:9;stroke-miterlimit:10;}
+	.st1{stroke:#659DF7;stroke-width:9;stroke-miterlimit:10;}
+	.st2{fill:#FFD44C;}
+	.st3{font-family:'Verdana';}
+	.st4{font-size:55px;}
+	.st5{fill:#FFFFFF;stroke:#FFD44D;stroke-width:9;stroke-miterlimit:10;}
+	.st6{font-size:32px;}
+</style>
+<path class="st0" d="M1118.8,294.5H348.2c-3.7,0-6.7-3-6.7-6.7v-455.1c0-3.7,3-6.7,6.7-6.7h770.6c3.7,0,6.7,3,6.7,6.7v455.1
+	C1125.5,291.5,1122.5,294.5,1118.8,294.5z"/>
+<line class="st0" x1="341.5" y1="-149.7" x2="1125.5" y2="-149.7"/>
+<path class="st1" d="M1125.5-106.7"/>
+<path class="st1" d="M342.6-106.7"/>
+<circle class="st0" cx="733.5" cy="39.9" r="79"/>
+<line class="st0" x1="679" y1="158.3" x2="788" y2="158.3"/>
+<line class="st0" x1="679" y1="177.3" x2="788" y2="177.3"/>
+<g>
+	<text transform="matrix(1 -6.110000e-03 6.110000e-03 1 501.5 -68.9003)" class="st2 st3 st4">JavaScript Clock</text>
+</g>
+<rect x="651.6" y="144.2" class="st5" width="438.8" height="116"/>
+<rect x="381.5" y="144.2" class="st5" width="240" height="116"/>
+<text transform="matrix(1 0 0 1 399.555 213.6832)" class="st2 st3 st6">View Project</text>
+<text transform="matrix(1 0 0 1 685.555 214.2026)" class="st2 st3 st6">HTML  CSS  JavaScript</text>
+</svg>
