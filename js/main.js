@@ -146,4 +146,7 @@ if (mediaQuery.matches) {
   project4.setAttribute('src', 'assets/welcome-to-camhs2.svg');
   project5.setAttribute('src', 'assets/stopwatch2.svg');
   project6.setAttribute('src', 'assets/clock2.svg');
+
+  document.getElementsByClassName("active")[0].style.marginTop = "30px";
+  document.getElementsByClassName("my-name")[0].classList.add('not-visible');
 }
