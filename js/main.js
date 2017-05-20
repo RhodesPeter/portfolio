@@ -140,10 +140,10 @@ if (mediaQuery.matches) {
   project6.addEventListener("mouseover", function(){mouseOver(project6, project6B)});
   project6B.addEventListener("mouseleave", function(){mouseLeave(project6, project6B)});
 } else {
-  project1.setAttribute('src', 'assets/autocomp2.svg');
+  project1.setAttribute('src', 'assets/whack-a-mole2.svg');
   project2.setAttribute('src', 'assets/drawing-app2.svg');
-  project3.setAttribute('src', 'assets/hacker2.svg');
+  project3.setAttribute('src', 'assets/city-search2.svg');
   project4.setAttribute('src', 'assets/welcome-to-camhs2.svg');
   project5.setAttribute('src', 'assets/stopwatch2.svg');
-  project6.setAttribute('src', 'assets/coming-soon2.svg');
+  project6.setAttribute('src', 'assets/clock2.svg');
 }
