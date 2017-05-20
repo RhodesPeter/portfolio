@@ -24,7 +24,6 @@ module.exports = {
       .assert.visible('img[class=project6]')
       .assert.visible('div[class=about-section__wrapper]')
       .assert.visible('a[id=link-to-cv]')
-      .assert.visible('p[id=about__para1]')
       .assert.visible('p[id=about__para2]')
       .assert.visible('p[id=about__para3]')
       .assert.visible('p[id=about__para4]')

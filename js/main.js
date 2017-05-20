@@ -119,7 +119,7 @@ function mouseLeave(project, projectB){
 }
 
 // function so that project image viewed on mobile are in view with details
-var mediaQuery = window.matchMedia( "(min-width: 700px)" );
+var mediaQuery = window.matchMedia( "(min-width: 1030px)" );
 
 if (mediaQuery.matches) {
   project1.addEventListener("mouseover", function(){mouseOver(project1, project1B)});
