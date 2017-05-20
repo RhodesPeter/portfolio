@@ -126,14 +126,6 @@ hr {
   z-index: 1;
 }
 
-.not-visible {
-  display: none;
-}
-
-.visible {
-  display: inline-block;
-}
-
 .no-list-style {
   list-style: none;
 }
@@ -209,6 +201,14 @@ hr {
 
 .links__link:hover {
   color: white;
+}
+
+.not-visible {
+  display: none !important;
+}
+
+.visible {
+  display: inline-block;
 }
 
 [class*="project"] {
