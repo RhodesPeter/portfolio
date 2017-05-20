@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   font-family: 'Actor', sans-serif;
   font-size: 1.1em;
+  min-width: 250px;
 }
 
 .cv-body {
@@ -22,7 +23,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  min-height: 570px;
+  min-height: 600px;
 }
 
 .nav__text-container {
