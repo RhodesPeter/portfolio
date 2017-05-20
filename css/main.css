@@ -22,12 +22,15 @@ body {
   background: linear-gradient(#659df7 0%, #5C8ED6 100%);
   text-align: center;
   display: flex;
+  display: -webkit-flex;
   justify-content: center;
+  -webkit-justify-content: center;
   min-height: 600px;
 }
 
 .nav__text-container {
 	max-width: 750px;
+  -webkit-align-self: center;
   align-self: center;
   margin-top: -3.4em;
 }
