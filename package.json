@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/RhodesPeter/cv-portfolio#readme",
   "dependencies": {
-    "nightwatch": "^0.9.9",
+    "nightwatch": "^0.9.15",
     "selenium-download": "^2.0.10"
   },
   "devDependencies": {
