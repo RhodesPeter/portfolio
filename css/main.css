@@ -45,6 +45,10 @@ body {
   margin: -10px 0 -2px 0;
 }
 
+.nav__links {
+  color: black;
+}
+
 hr {
   border: 0;
   border-top: 2.8px solid black;
