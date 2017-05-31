@@ -45,8 +45,9 @@ body {
   margin: -10px 0 -2px 0;
 }
 
-.nav__links {
-  color: black;
+.nav__links:visited {
+  text-decoration: none;
+  color:black;
 }
 
 hr {
